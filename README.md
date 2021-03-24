@@ -10,6 +10,7 @@
 
 - Obi-Wan Kenobi 
 - Erick Ribeiro
+- -Thais Helena
 
 ## Professor
 

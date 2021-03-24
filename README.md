@@ -8,10 +8,10 @@ SISTEMAS PARA INTERNET
 
 ## Integrantes
 
-- Obi-Wan Kenobi 
 - Déborah Freitas de Souza
 - Erick Ribeiro
 - Thais Helena
+- Paulo Henrique Moura Da Silva
 
 ## Professor
 

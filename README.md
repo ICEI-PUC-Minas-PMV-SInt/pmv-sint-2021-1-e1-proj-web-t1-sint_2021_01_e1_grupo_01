@@ -1,6 +1,6 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+SISTEMAS PARA INTERNET
 
 `DISCIPLINA`
 
@@ -9,6 +9,7 @@
 ## Integrantes
 
 - Obi-Wan Kenobi 
+- Déborah Freitas de Souza
 - Erick Ribeiro
 - Thais Helena
 

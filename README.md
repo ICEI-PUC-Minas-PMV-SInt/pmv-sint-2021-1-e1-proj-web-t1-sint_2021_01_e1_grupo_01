@@ -9,7 +9,7 @@
 ## Integrantes
 
 - Obi-Wan Kenobi 
-- Anakin Skywalker
+- Erick Ribeiro
 
 ## Professor
 

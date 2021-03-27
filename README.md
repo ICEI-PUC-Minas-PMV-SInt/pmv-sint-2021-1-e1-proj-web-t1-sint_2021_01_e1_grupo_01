@@ -1,22 +1,23 @@
-# TÍTULO DO PROJETO
+APLICAÇÃO WEB PARA CONSULTA DE EVENTOS ASTRONÔMICOS
 
 SISTEMAS PARA INTERNET
 
-`DISCIPLINA`
+PROJETO: APLICAÇÕES WEB 
 
-`SEMESTRE`
+2021/1
 
 ## Integrantes
 
+- Ana Luiza Lima
 - Déborah Freitas de Souza
 - Erick Ribeiro
 - Thais Helena
 - Paulo Henrique Moura Da Silva
-- Ana Luiza Lima
+
 
 ## Professor
 
-- Mestre Yoda
+- Fabiano Costa Teixeira
 
 # Documentação
 

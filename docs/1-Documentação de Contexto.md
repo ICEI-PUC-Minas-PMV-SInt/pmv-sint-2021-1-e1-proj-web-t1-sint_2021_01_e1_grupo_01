@@ -5,6 +5,14 @@ Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o pr
 ## Problema
 É possível a visualização de eventos astronômicos por meio de uma aplicação web focada na experiencia do usuário a partir da escolha da localização?
 
+ Devido a dificuldade do usuário de encontrar um sistema web que reuna todas as informações necessárias com a experiência focada no usuário
+ para que uma pessoa que já tem conhecimento de astronomia ou uma pessoa que quer conhecer mais, consiga entender e acessar com facilidade. Seria interessante ter uma interface em que os usuários pudessem ter as informações de acordo com a localidade deles.
+
+
+-Difícil de entender
+-Falta de informação acessível
+-Informações dispersas 
+
 *Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.*
 
 *Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.*

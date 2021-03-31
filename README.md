@@ -1,7 +1,9 @@
-APLICAÇÃO WEB PARA CONSULTA DE EVENTOS ASTRONÔMICOS
+# Aplicação WEB para consultas de eventos astronômicos
 
 `CURSO:` Sistemas para Internet
+
 `DISCIPLINA:` Projeto - Aplicações Web
+
 `SEMESTRE:` Turma 1 - 2021/1
 
 ## Integrantes

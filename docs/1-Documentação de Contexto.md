@@ -3,26 +3,10 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-É possível a visualização de eventos astronômicos por meio de uma aplicação web focada na experiencia do usuário a partir da escolha da localização?
 
- Devido a dificuldade do usuário de encontrar um sistema web que reuna todas as informações necessárias com a experiência focada no usuário
- para que uma pessoa que já tem conhecimento de astronomia ou uma pessoa que quer conhecer mais, consiga entender e acessar com facilidade. Seria interessante ter uma interface em que os usuários pudessem ter as informações de acordo com a localidade deles.
+O projeto visa resolver a dificuldade do usuário interessado em informações astronômicas, independente do nível de conhecimento específico nessa área, de encontrar uma aplicação web que demonstre as previsões de eventos astronômicos visíveis a partir de sua geolocalização.
 
-
--Difícil de entender
--Falta de informação acessível
--Informações dispersas 
-
-*Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.*
-
-*Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.*
-
-*Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.*
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Vale ressaltar que, a necessidade da interface baseada na experiência do usuário ocasiona a simplicidade e interatividade necessária para a usabilidade correta de uma aplicação web.
 
 ## Objetivos
 

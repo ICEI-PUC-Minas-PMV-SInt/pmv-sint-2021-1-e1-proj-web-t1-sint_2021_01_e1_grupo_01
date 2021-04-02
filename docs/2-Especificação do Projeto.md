@@ -8,19 +8,20 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+<img title="Jose Augusto" src="https://i.imgur.com/APc56HT.jpg" width="200" height="200" />
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+José Augusto tem 13 anos, é estudante do ensino fundamental II e mora no interior de São Paulo, gosta de todas as matérias na área de exatas, videogame, adora a revista Recreio, filmes de ação científica. Recentemente, descobriu que gosta muito da NASA, Space X e de astros, por conta disso quer aprender mais sobre isso.
+
+
+<img title="Maria Eugênia" src="https://i.imgur.com/EZmVbet.jpg" width="200" height="200" />
+
+Maria Eugênia tem 31 anos, é artista e tem como hobbies a música e a fotografia. Desde que comprou um telescópio não conseguiu tirar os olhos do céu, gosta de observar as crateras da lua e os planetas que podem ser vistos da terra, porém ela nunca sabe quando vai ocorrer cada evento astronômico e se ela será capaz de vê-los.
+
+
+<img title="Renato Luís" src="https://i.imgur.com/rGQVtoe.jpg" width="200" height="200" />
+
+Renato Luís tem 56 anos, é professor de ciências, gosta de música, passa tempo com os amigos e família, adora um barzinho e dá aulas criativa. Ele deseja que seus alunos se interessem mais por astronomia, mas tem dificuldade de encontrar plataformas para isso.
 
 ## Histórias de Usuários
 

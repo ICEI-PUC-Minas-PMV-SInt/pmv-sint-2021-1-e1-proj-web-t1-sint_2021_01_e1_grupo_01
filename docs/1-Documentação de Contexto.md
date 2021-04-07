@@ -30,6 +30,8 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
+## Estado da Arte
+
 ## Público-Alvo
 
 Homens e mulheres, na faixa etária de 12 à 60 anos, que tenham interesse em aprender e aprofundar seus conhecimentos, além de, acompanhar ocorrências astronômicas, que possuam perfil pesquisador e prezam por assuntos científicos, independente de qualquer conhecimento prévio nesta temática.

@@ -21,9 +21,9 @@ Com isso, o projeto em questão trás a melhoria e criação de um Website para 
 
 ## Problema
 
-O projeto visa resolver a dificuldade do usuário interessado em informações astronômicas, independente do nível de conhecimento específico nessa área, de encontrar uma aplicação web que demonstre as previsões de eventos astronômicos visíveis a partir de sua geolocalização.
+Atualmente o usuário interessado em informações astronômicas, independente do nível de conhecimento específico nessa área, depara-se com a dificuldade em encontrar uma aplicação web que demonstre as previsões de eventos astronômicos visíveis a partir de sua geolocalização.
 
-Vale ressaltar que, a necessidade da interface baseada na experiência do usuário ocasiona a simplicidade e interatividade necessária para a usabilidade correta de uma aplicação web.
+Vale ressaltar a dificuldade de encontrar interfaces baseadas na experiência do usuário, ou seja, simples e interativas, que tratem sobre o tema abordado.
 
 ## Objetivos
 
@@ -31,11 +31,11 @@ Este projeto busca desenvolver uma aplicação web que contenha informações so
 
 Tem como objetivo específico:
 
-- Definir e afunilar o tema e a problemática escolhidos; 
-- Documentar as especificações da aplicação, incluindo público alvo, personas, requisitos da aplicação, entre outros; 
-- Validar e prototipar a aplicação web;
-- Definir e desenvolver a aplicação web;
-[Em construção]
+ - Permitir o acesso de informação voltado para astronomia de forma
+   simplificada para o usuário;
+ - Permitir que o usuário possa verificar ocorrências astronômicas;
+ - Permitir que o usuário utilize sua geolocalização para verificar
+   ocorrências astronômicas visíveis em sua região;
 
 
 ## Justificativa

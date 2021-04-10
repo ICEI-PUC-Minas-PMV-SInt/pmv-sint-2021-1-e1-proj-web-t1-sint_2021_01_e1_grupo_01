@@ -1,6 +1,23 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A astronomia é considerada a ciência mais antiga datada e conhecida pela humanidade (OLIVEIRA FILHO et al., 2016), porém, o questionamento levantado pelo projeto em questão é o quão ela é esquecida e submersa na mente de muitas pessoas, seja pela dificuldade, desinteresse, ou a falta de plataformas interativas para visualização e conhecimento de eventos astronômicos. 
+
+Muitos cientistas, astrofísicos, astrônomos e autores tentam trazer o conhecimento básico quanto a visão da ciência para os interessados, como apresentado no livro: “Do átomo ao buraco negro: para descomplicar a astronomia” de Schawarza - uma obra simples ensinando conceitos básicos para estimular o interesse do leitor no conhecimento astronômico. As dificuldades em descrever a importância da astronomia e da pesquisa fundamental em geral são bem resumidas pela seguinte citação:
+
+>Preservar o conhecimento é fácil. Transferir conhecimento também é fácil. Mas fazer novos conhecimentos não é fácil nem lucrativo a curto prazo. A pesquisa fundamental se mostra lucrativa no longo prazo e, o mais importante, é uma força que enriquece a cultura de qualquer sociedade com razão e verdade básica. 
+>
+>Ahmed Zewali, vencedor do Prêmio Nobel de Química (1999).
+
+Embora vivamos em um mundo que enfrenta muitos problemas urgentes, como fome, pobreza, energia e aquecimento global, o projeto traz que, a astronomia tem benefícios de longo prazo, que são igualmente importantes para uma sociedade civilizada.
+
+Vários estudos – como apresentado pela Revista de Iniciação Científica em 2017,  nos dizem que o investimento em educação científica, pesquisa e tecnologia proporcionou enormes retornos a toda a população, não apenas economicamente, mas também culturalmente e indiretamente, ajudando, com isso, os países a enfrentar e superar crises. 
+
+O desenvolvimento da ciência e tecnologia em um país ou região está intimamente relacionado ao seu índice de desenvolvimento humano, que é um dado estatístico que mede a expectativa de vida, educação e renda (Truman, 1949).
+
+Vale registrar que, em 2007 foi desenvolvido e disponibilizado pela NASA (National Aeronautics and Space Administration) um website com objetivo de se visualizar os Eclipses Lunares, sendo possível determinar a data, longitude e latitude do local exato para visualização do fenômeno.
+
+Com isso, o projeto em questão trás a melhoria e criação de um Website para visualização de eventos astronômicos como um geral, para auxiliar não apenas no conhecimento do público interessado mas estimular o interesse nos usuários com a astronomia.
+
 
 ## Problema
 

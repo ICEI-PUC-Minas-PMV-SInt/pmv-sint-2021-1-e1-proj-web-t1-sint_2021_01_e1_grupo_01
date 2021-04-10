@@ -91,6 +91,10 @@ Nesse contexto, justifica-se o presente projeto que abordará a problemática ap
 
 ## Estado da Arte
 
+Nas pesquisas realizadas foi possível notar a ausência de Websites direcionados ao calendário de eventos astronômicos do projeto proposto, sendo observado a grande quantidade de sites de notícia com objetivo de informar ao leitor quanto a um evento específico.
+
+É importante frisar que existem plataformas que permitem a visualização de uma parte do universo e das constelações, além disto, um calendário elaborado pela NASA (National Aeronautics and Space Administration) para observação da data e local de eclipses lunares (SKYCAR). A falta em questão de uma plataforma interativa e dinâmica para visualização desses eventos, trouxe como base, para o desenvolvimento do projeto em questão. 
+
 ## Público-Alvo
 
 Homens e mulheres, na faixa etária de 12 à 60 anos, que tenham interesse em aprender e aprofundar seus conhecimentos, além de, acompanhar ocorrências astronômicas, que possuam perfil pesquisador e prezam por assuntos científicos, independente de qualquer conhecimento prévio nesta temática.

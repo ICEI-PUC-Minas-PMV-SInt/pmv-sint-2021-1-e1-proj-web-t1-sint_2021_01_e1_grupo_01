@@ -40,12 +40,54 @@ Tem como objetivo específico:
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Ao observar a lacuna existente nas aplicações web quanto a exploração clara, intuitiva e organizada da astronomia, bem como a falta de recursos disponíveis para a verificação de eventos astronômicos baseados na geolocalização do usuário, notou-se a viabilidade de elaborar este projeto com ênfase na produção de uma aplicação que solucione as problemáticas abordadas.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A necessidade de discussão sobre o conhecimento astronômico é pertinente para a formação do cidadão consciente quanto às problemáticas que afligem diversos campos de conhecimento, como afirmam os autores Rodolfo Langhi e Roberto Nardi:
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+> No entanto, além das justificativas apresentadas neste estudo, acima
+> de tudo, a opção pela seleção de temas significativos de Astronomia a
+> serem trabalhados na Educação Básica e na formação de professores pode
+> conduzir, afinal, à compreensão da natureza humana e despertar o aluno
+> e o professor para a cidadã responsabilidade planetária individual e
+> coletiva, enquanto um ser habitante do único corpo celeste conhecido
+> que pode nos abrigar vivos. (grifo nosso)
+
+Além do desenvolvimento de um cidadão consciente, o conhecimento astronômico permite o avanço tecnológico, tendo seus conceitos presentes em diversas criações e avanços, como afirmam os autores Claudio André Dias e Josué Santa Rita:
+
+> Devido ao seu elevado caráter interdisciplinar e à possibilidade de
+> diversas interfaces com outras disciplinas (Física, Química, Biologia,
+> História, Geografia,Educação Artística,...), os conteúdos de
+> Astronomia podem proporcionar aos alunos uma visão menos fragmentada
+> do conhecimento, pensando mais adiante, esta disciplina ainda poderia
+> atuar como integradora de conhecimentos.
+> Uma amostra prática dessa interdisciplinaridade está ligada à evolução
+> tecnológica que o estudo da astronomia tem propiciado em diversas
+> áreas do conhecimento. Por exemplo, o desenvolvimento de antenas,
+> espelhos, telescópios, vem permitindo o monitoramento do espaço e da
+> própria Terra, facilitando a pesquisa nas áreas das ciências
+> espaciais, meteorologia, telecomunicações e geociências, além de
+> colaborar com as correções de alguns problemas oftalmológicos.
+> Sensores de luz fraca e infravermelho foram desenvolvidos a partir de
+> pesquisas astronômicas, este último é utilizado para diagnóstico de
+> tumores e na indústria de semicondutores. (grifo nosso)
+
+Sendo assim, a astronomia indiscutivelmente apresenta-se como uma instrução necessária que deve ser incentivada independente da idade e grau de conhecimento do indivíduo. Porém, com a lacuna de fontes de informação que, além de despertarem interesse e curiosidade, possuam um conteúdo confiável de fácil assimilação e entendimento, a procura pelo desenvolvimento deste conhecimento acaba por se tornar escasso, afirmam os autores Rodolfo Langhi e Roberto Nardi:
+
+> [...] há carência de fontes seguras sobre Astronomia, pois até mesmo
+> livros didáticos continuam apresentando erros conceituais. A mídia é
+> escassa em documentários sobre este tema, e muitas vezes prefere
+> exagerar no sensacionalismo em notícias que envolvem assuntos sobre o
+> cosmo. Não temos uma quantidade suficiente de planetários,
+> observatórios, museus de ciências e associações de astrônomos amadores
+> que poderiam servir de eficiente apoio ao ensino de Astronomia nas
+> escolas. Deste modo, ocorre uma constante perda de valorização
+> cultural e falta do hábito de olhar para o céu, reforçado pelo estilo
+> de vida cada vez mais urbano e pelo excesso de iluminação pública mal
+> direcionada, causando a poluição luminosa, que ofusca a maior parte
+> das estrelas no céu, além de trazer desperdício de energia elétrica e
+> consequências só meio ambiente. (grifo nosso)
+
+Nesse contexto, justifica-se o presente projeto que abordará a problemática aplicada à área de Sistemas para Internet com o intuito de produzir uma aplicação web que permita o enriquecimento de fontes para o conhecimento astronômico. 
 
 ## Estado da Arte
 

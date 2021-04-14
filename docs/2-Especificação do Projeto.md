@@ -7,6 +7,30 @@ Assim, neste documento serão abordadas as definições de persona, histórias d
 
 ## Personas
 
+<table>
+ <tr>
+  <th>Foto</th>
+  <th>Nome</th>
+  <th>Descrição</th>
+  <th>Aplicativos</th>
+  <th>Motivações</th>
+  <th>Frustrações</th>
+  <th>Hobbies, História</th>
+ </tr>
+ <tr>
+  <td><img title="Jose Augusto" src="https://i.imgur.com/APc56HT.jpg" width="200" height="200" /></td>
+  <td>Jospe Augusto</td>
+  <td>
+    <ul>
+     <li>Facebook</li>
+     <li>Instagram</li>  
+   </ul>
+  </td>
+  <td>....</td>
+  <td>....</td>
+  <td>....</td>
+ </tr>
+</table>
 
 <img title="Jose Augusto" src="https://i.imgur.com/APc56HT.jpg" width="200" height="200" />
 

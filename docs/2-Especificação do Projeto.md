@@ -1,6 +1,6 @@
 # Especificações do Projeto
 
-Tendo em vista que atualmente o usuário interessado em informações astronômicas depara-se com a dificuldade em encontrar uma fonte de informação que demonstre as previsões de eventos astronômicos visíveis a partir de sua geolocalização, o projeto busca desenvolver uma aplicação web que contenha dados sobre as ocorrências de eventos astronômicos baseados na localização informada pelo usuário
+Tendo em vista que atualmente o usuário interessado em informações astronômicas depara-se com a dificuldade em encontrar uma fonte de informação, o projeto busca desenvolver uma aplicação web que contenha dados quanto à, ocorrências astronômicas, baseadas na localização informada pelo usuário
 
 Assim, neste documento serão abordadas as definições de persona, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto utilizando técnicas de obtenção de dados, como questionários online, para compreender de forma específica nosso usuário e suas necessidades.
 

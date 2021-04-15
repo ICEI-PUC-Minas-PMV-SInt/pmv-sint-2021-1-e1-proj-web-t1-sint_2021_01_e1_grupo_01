@@ -41,12 +41,12 @@ Tem como objetivo específico:
 
 Ao observar a lacuna existente nas aplicações web quanto a exploração clara, intuitiva e organizada da astronomia, bem como a falta de recursos disponíveis para a verificação de fenômenos astronômicos baseados na geolocalização do usuário, notou-se a viabilidade de elaborar este projeto com ênfase na produção de uma aplicação que solucione as problemáticas abordadas.
 
-A necessidade de discussão sobre astronomia é pertinente para a formação do cidadão consciente quanto às problemáticas que afligem diversos campos de conhecimento, como afirmam os autores Rodolfo Langhi e Roberto Nardi:
+A necessidade de discussão sobre astronomia é pertinente para a formação do cidadão consciente quanto às problemáticas que afligem diversos campos de conhecimento, <ins>como afirmam <ins>os autores Rodolfo Langhi e Roberto Nardi:
 
 > No entanto, além das justificativas apresentadas neste estudo, acima
-> de tudo, <u>a opção pela seleção de temas significativos de Astronomia a
+> de tudo, <ins>a opção pela seleção de temas significativos de Astronomia a
 > serem trabalhados na Educação Básica e na formação de professores pode
-> conduzir, afinal, </u>à compreensão da natureza humana e despertar o aluno
+> conduzir, afinal, <ins>à compreensão da natureza humana e despertar o aluno
 > e o professor para a cidadã responsabilidade planetária individual e
 > coletiva, enquanto um ser habitante do único corpo celeste conhecido
 > que pode nos abrigar vivos. (grifo nosso)

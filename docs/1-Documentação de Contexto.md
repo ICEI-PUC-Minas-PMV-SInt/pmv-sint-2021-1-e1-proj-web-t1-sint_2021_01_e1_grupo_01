@@ -90,10 +90,38 @@ Nesse contexto, justifica-se o presente projeto que abordará a problemática ap
 
 ## Estado da Arte
 
-Nas pesquisas realizadas foi possível notar a ausência de Websites direcionados ao calendário de eventos astronômicos do projeto proposto, sendo observado a grande quantidade de sites de notícia com objetivo de informar ao leitor quanto a um evento específico.
+Nas pesquisas realizadas foi possível notar a ausência de Websites direcionados ao calendário de fenômenos astronômicos do projeto proposto, sendo observado uma quantidade expressiva de sites de notícia com objetivo de informar ao leitor quanto a uma ocorrência específica.
 
-É importante frisar que existem plataformas que permitem a visualização de uma parte do universo e das constelações, além disto, um calendário elaborado pela NASA (National Aeronautics and Space Administration) para observação da data e local de eclipses lunares (SKYCAR). A falta em questão de uma plataforma interativa e dinâmica para visualização desses eventos, trouxe como base, para o desenvolvimento do projeto em questão. 
+É importante frisar que existem plataformas que permitem a visualização de uma parte do universo e das constelações, além disto, um calendário elaborado pela NASA (National Aeronautics and Space Administration) para observação da data e local, sendo um desenvolvimento limitado a visualização de eclipses lunares (SKYCAL). A falta em questão de uma plataforma interativa e dinâmica para visualização desses acontecimentos, trouxe como base, para o desenvolvimento do projeto em questão.
+
+<table>
+ <thead>
+  <tr>
+   <th>Imagens da Pesquisa</th>
+   <th>Descrição</th>
+  </tr>
+ </thead>
+
+ <tbody>
+  <tr>
+   <td><img src="https://i.ibb.co/MscP4pt/image.png" width=500px></td>
+   <td width=500px>A imagem em questão refere-se ao site do planetário de Vitória-ES que apresenta um calendário de fenômenos astronômicos para interessados a partir de uma agenda no google.</td>
+  </tr>
+
+  <tr>
+   <td><img src="https://i.ibb.co/N9BQCjv/image.png" width=500px></td>
+   <td width=500px>O GZN é uma revista de Porto Alegre - RS que no final de 2021 fez uma coletânea de eventos astrônomos ocorridos que iriam ocorrer para visualização.</td>
+  </tr>
+
+  <tr>
+   <td><img src="https://i.ibb.co/BPYnt20/image.png" width=500px></td>
+   <td width=500px>O SKYCAL é o projeto da NASA citado no texto acima, a aplicação serve para visualização da data e local de eventos lunares e solares.</td>
+  </tr>
+ </tbody>
+ 
+</table>
 
 ## Público-Alvo
 
-Homens e mulheres, na faixa etária de 12 à 60 anos, que tenham interesse em aprender e aprofundar seus conhecimentos, além de, acompanhar ocorrências astronômicas, que possuam perfil pesquisador e prezam por assuntos científicos, independente de qualquer conhecimento prévio nesta temática.
+Homens e mulheres, na faixa etária de 12 à 80 anos, que tenham interesse em aprender e aprofundar seus conhecimentos, além de, acompanhar ocorrências astronômicas, que possuam perfil pesquisador e prezam por assuntos científicos, independente de qualquer conhecimento prévio nesta temática.
+

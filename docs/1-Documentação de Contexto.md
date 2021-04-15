@@ -39,9 +39,9 @@ Tem como objetivo específico:
 
 ## Justificativa
 
-Ao observar a lacuna existente nas aplicações web quanto a exploração clara, intuitiva e organizada da astronomia, bem como a falta de recursos disponíveis para a verificação de eventos astronômicos baseados na geolocalização do usuário, notou-se a viabilidade de elaborar este projeto com ênfase na produção de uma aplicação que solucione as problemáticas abordadas.
+Ao observar a lacuna existente nas aplicações web quanto a exploração clara, intuitiva e organizada da astronomia, bem como a falta de recursos disponíveis para a verificação de fenômenos astronômicos baseados na geolocalização do usuário, notou-se a viabilidade de elaborar este projeto com ênfase na produção de uma aplicação que solucione as problemáticas abordadas.
 
-A necessidade de discussão sobre o conhecimento astronômico é pertinente para a formação do cidadão consciente quanto às problemáticas que afligem diversos campos de conhecimento, como afirmam os autores Rodolfo Langhi e Roberto Nardi:
+A necessidade de discussão sobre astronomia é pertinente para a formação do cidadão consciente quanto às problemáticas que afligem diversos campos de conhecimento, como afirmam os autores Rodolfo Langhi e Roberto Nardi:
 
 > No entanto, além das justificativas apresentadas neste estudo, acima
 > de tudo, a opção pela seleção de temas significativos de Astronomia a
@@ -51,7 +51,7 @@ A necessidade de discussão sobre o conhecimento astronômico é pertinente para
 > coletiva, enquanto um ser habitante do único corpo celeste conhecido
 > que pode nos abrigar vivos. (grifo nosso)
 
-Além do desenvolvimento de um cidadão consciente, o conhecimento astronômico permite o avanço tecnológico, tendo seus conceitos presentes em diversas criações e avanços, como afirmam os autores Claudio André Dias e Josué Santa Rita:
+Além do desenvolvimento de um cidadão consciente, o conhecimento astronômico permite o avanço tecnológico, estando seus conceitos presentes em diversas criações, como afirmam os autores Claudio André Dias e Josué Santa Rita:
 
 > Devido ao seu elevado caráter interdisciplinar e à possibilidade de
 > diversas interfaces com outras disciplinas (Física, Química, Biologia,
@@ -70,7 +70,7 @@ Além do desenvolvimento de um cidadão consciente, o conhecimento astronômico 
 > pesquisas astronômicas, este último é utilizado para diagnóstico de
 > tumores e na indústria de semicondutores. (grifo nosso)
 
-Sendo assim, a astronomia indiscutivelmente apresenta-se como uma instrução necessária que deve ser incentivada independente da idade e grau de conhecimento do indivíduo. Porém, com a lacuna de fontes de informação que, além de despertarem interesse e curiosidade, possuam um conteúdo confiável de fácil assimilação e entendimento, a procura pelo desenvolvimento deste conhecimento acaba por se tornar escasso, afirmam os autores Rodolfo Langhi e Roberto Nardi:
+Sendo assim, a astronomia indiscutivelmente apresenta-se como uma instrução necessária que deve ser incentivada independente da idade e grau de conhecimento do indivíduo. Porém, com a lacuna de fontes de informação que, além de despertarem interesse e curiosidade, possuam um conteúdo confiável de fácil assimilação e entendimento, a procura pelo desenvolvimento acaba por se tornar escasso, afirmam os autores Rodolfo Langhi e Roberto Nardi:
 
 > [...] há carência de fontes seguras sobre Astronomia, pois até mesmo
 > livros didáticos continuam apresentando erros conceituais. A mídia é
@@ -84,9 +84,9 @@ Sendo assim, a astronomia indiscutivelmente apresenta-se como uma instrução ne
 > de vida cada vez mais urbano e pelo excesso de iluminação pública mal
 > direcionada, causando a poluição luminosa, que ofusca a maior parte
 > das estrelas no céu, além de trazer desperdício de energia elétrica e
-> consequências só meio ambiente. (grifo nosso)
+> consequências ao meio ambiente. (grifo nosso)
 
-Nesse contexto, justifica-se o presente projeto que abordará a problemática aplicada à área de Sistemas para Internet com o intuito de produzir uma aplicação web que permita o enriquecimento de fontes para o conhecimento astronômico. 
+Nesse contexto, justifica-se o presente projeto que abordará a problemática aplicada à área de Sistemas para Internet com o intuito de  produzir uma aplicação web que permita o enriquecimento de fontes para o conhecimento astronômico.
 
 ## Estado da Arte
 

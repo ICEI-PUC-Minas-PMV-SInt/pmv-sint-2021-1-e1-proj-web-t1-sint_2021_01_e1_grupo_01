@@ -1,6 +1,6 @@
 # Introdução
 
-A astronomia é considerada a ciência mais antiga datada e conhecida pela humanidade (OLIVEIRA FILHO et al., 2016), porém, o questionamento levantado pelo projeto em questão é o quão ela é esquecida e submersa na mente de muitas pessoas, seja pela dificuldade, desinteresse, ou a falta de plataformas interativas para visualização e conhecimento de eventos astronômicos. 
+A astronomia é considerada a ciência mais antiga datada e conhecida pela humanidade (OLIVEIRA FILHO et al., 2016), porém, o questionamento levantado pelo projeto em questão é o quão ela é esquecida e submersa na mente de muitas pessoas, seja pela dificuldade, desinteresse, ou a falta de plataformas interativas para visualização e conhecimento de fenômenos astronômicos. 
 
 Muitos cientistas, astrofísicos, astrônomos e autores tentam trazer o conhecimento básico quanto a visão da ciência para os interessados, como apresentado no livro: “Do átomo ao buraco negro: para descomplicar a astronomia” de Schawarza - uma obra simples ensinando conceitos básicos para estimular o interesse do leitor no conhecimento astronômico. As dificuldades em descrever a importância da astronomia e da pesquisa fundamental em geral são bem resumidas pela seguinte citação:
 
@@ -14,10 +14,9 @@ Vários estudos – como apresentado pela Revista de Iniciação Científica em 
 
 O desenvolvimento da ciência e tecnologia em um país ou região está intimamente relacionado ao seu índice de desenvolvimento humano, que é um dado estatístico que mede a expectativa de vida, educação e renda (Truman, 1949).
 
-Vale registrar que, em 2007 foi desenvolvido e disponibilizado pela NASA (National Aeronautics and Space Administration) um website com objetivo de se visualizar os Eclipses Lunares, sendo possível determinar a data, longitude e latitude do local exato para visualização do fenômeno.
+Vale registrar que, em 2007 foi desenvolvido e disponibilizado pela NASA (National Aeronautics and Space Administration) um website com objetivo visualização dos Eclipses Lunares, sendo possível determinar a data, longitude e latitude do local exato para visualização do fenômeno.
 
-Com isso, o projeto em questão trás a melhoria e criação de um Website para visualização de eventos astronômicos como um geral, para auxiliar não apenas no conhecimento do público interessado mas estimular o interesse nos usuários com a astronomia.
-
+O projeto em questão trás a melhoria e criação de um Website para visualização de fenômenos astronômicos como um geral, uma vez que, foi detectada a falta de sistemas referente ao tema do projeto em questão, sendo observado o grande número de sites de notícia com tal intuito, com isso, para auxiliar não apenas no conhecimento do público interessado mas estimular o interesse nos usuários com a astronomia.
 
 ## Problema
 

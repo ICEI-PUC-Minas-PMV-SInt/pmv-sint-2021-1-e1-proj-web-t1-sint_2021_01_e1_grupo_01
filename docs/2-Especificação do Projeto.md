@@ -8,43 +8,162 @@ Assim, neste documento serão abordadas as definições de persona, histórias d
 ## Personas
 
 <table>
- <tr>
-  <th>Foto</th>
-  <th>Nome</th>
-  <th>Descrição</th>
-  <th>Aplicativos</th>
-  <th>Motivações</th>
-  <th>Frustrações</th>
-  <th>Hobbies, História</th>
- </tr>
- <tr>
-  <td><img title="Jose Augusto" src="https://i.imgur.com/APc56HT.jpg" width="200" height="200" /></td>
-  <td>Jospe Augusto</td>
-  <td>
-    <ul>
-     <li>Facebook</li>
-     <li>Instagram</li>  
-   </ul>
-  </td>
-  <td>....</td>
-  <td>....</td>
-  <td>....</td>
- </tr>
+  <tr>
+    <th>Foto</th>
+    <th>Nome</th>
+    <th>Descrição</th>
+    <th>Aplicativos</th>
+    <th>Motivações</th>
+    <th>Frustrações</th>
+    <th>Hobbies, História</th>
+  </tr>
+  <tr>
+    <td><img title="Jose Augusto" src="https://i.imgur.com/APc56HT.jpg" width="120" height="120" /></td>
+    <td>José Augusto</td>
+    <td>
+      <ul>
+        <li>13 anos</li>
+        <li>Estudante do ensino fundamental</li>
+        <li>Mora no interior de SP</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Youtube</li>
+        <li>Tik Tok</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Revista Recreio</li>
+        <li>Felipe Neto</li>
+        <li>Astronautas</li>
+      </ul>
+    </td>
+    <td>
+      <li>Não sabe muito sobre cometas</li>
+      <li>Nunca viu fenômenos astronômicos</li>
+      <li>Quer aprender bateria</li>
+    </td>
+    <td>
+      <li>Ler revista Recreio</li>
+      <li>Filmes de ação e ficção científica</li>
+      <li>Recentemente, descobriu que gosta muito da NASA, Space X e de astros, então quer aprender mais sobre.</li>
+    </td>
+  </tr>
+  <tr>
+    <td><img title="Maria Eugênia" src="https://i.imgur.com/EZmVbet.jpg" width="120" height="120" /></td>
+    <td>Maria Eugênia</td>
+    <td>
+      <ul>
+        <li>31 anos</li>
+        <li>Artista</li>
+        <li>Mora no Rio de Janeiro</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>Youtube</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Frida Kahlo</li>
+        <li>Tarsila do Amaral</li>
+        <li>Rihanna</li>
+      </ul>
+    </td>
+    <td>
+      <li>Não sabe quando vai ter algum fenômeno astronômico</li>
+      <li>Não sabe o que está vendo no espaço</li>
+      <li>Quer fazer quadros mais detalhados do espaço</li>
+    </td>
+    <td>
+      <li>Fotografia</li>
+      <li>Música</li>
+      <li>Desde que comprou um telescópio não conseguiu tirar os olhos do céu, porém ela nunca sabe quando vai ocorrer
+        cada evento astronômico e se será capaz de vê-los.</li>
+    </td>
+  </tr>
+  <tr>
+    <td><img title="Renato Luís" src="https://i.imgur.com/rGQVtoe.jpg" width="100" height="100" /></td>
+    <td>Renato Luís</td>
+    <td>
+      <ul>
+        <li>56 anos</li>
+        <li>Professor de Ciências</li>
+        <li>Mora em Belo Horizonte</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Youtube</li>
+        <li>Facebook</li>
+        <li>Reddit</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Coisa de Nerd(Leon e Nilse)</li>
+        <li>Elon Musk</li>
+        <li>NASA</li>
+      </ul>
+    </td>
+    <td>
+      <li>Não encontra sites bons sobre astronomia</li>
+      <li>Não consegue engajar os alunos</li>
+      <li>Pensa em comprar telescópio, mas antes quer saber se vai conseguir ver vários fenômenos.</li>
+    </td>
+    <td>
+      <li>Música</li>
+      <li>Barzinho com os amigos</li>
+      <li>Dar aulas criativas</li>
+      <li>Ele deseja que seus alunos se interessem mais por astronomia, mas tem dificuldade de encontrar plataformas
+        para isso</li>
+    </td>
+  </tr>
+  <tr>
+    <td><img title="Eduardo"
+        src="https://images.generated.photos/4kl3NFu9b1hfPOPq4U4gvFCE0HG_PEdFj2CQDhKK4WQ/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Ry/YW5zcGFyZW50X3Yz/L3YzXzAzMTg5ODYu/cG5n.png"
+        width="120" height="120" /></td>
+    <td>Eduardo</td>
+    <td>
+      <ul>
+        <li>77 anos</li>
+        <li>Engenheiro aposentado</li>
+        <li>Mora no interior de Minas</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Facebook</li>
+        <li>G1</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Jornais</li>
+        <li>Space X</li>
+        <li>Bill Gates</li>
+      </ul>
+    </td>
+    <td>
+      <li>Tem muito tempo livre nas mãos</li>
+      <li>Quer aprender mais coisas</li>
+    </td>
+    <td>
+      <li>Ler jornais</li>
+      <li>Passar tempo com seus netos</li>
+      <li>Assistir tv</li>
+      <li>Desde que se aposentou começou a se interessar mais pela astronomia, então quer encontrar um site que o ajude
+        a entender mais.</li>
+    </td>
+  </tr>
 </table>
-
-<img title="Jose Augusto" src="https://i.imgur.com/APc56HT.jpg" width="200" height="200" />
-
-José Augusto tem 13 anos, é estudante do ensino fundamental II e mora no interior de São Paulo, gosta de todas as matérias na área de exatas, videogame, adora a revista Recreio, filmes de ação científica. Recentemente, descobriu que gosta muito da NASA, Space X e de astros, por conta disso quer aprender mais sobre isso.
-
-
-<img title="Maria Eugênia" src="https://i.imgur.com/EZmVbet.jpg" width="200" height="200" />
-
-Maria Eugênia tem 31 anos, é artista e tem como hobbies a música e a fotografia. Desde que comprou um telescópio não conseguiu tirar os olhos do céu, gosta de observar as crateras da lua e os planetas que podem ser vistos da terra, porém ela nunca sabe quando vai ocorrer cada evento astronômico e se ela será capaz de vê-los.
-
-
-<img title="Renato Luís" src="https://i.imgur.com/rGQVtoe.jpg" width="200" height="200" />
-
-Renato Luís tem 56 anos, é professor de ciências, gosta de música, passa tempo com os amigos e família, adora um barzinho e dá aulas criativa. Ele deseja que seus alunos se interessem mais por astronomia, mas tem dificuldade de encontrar plataformas para isso.
 
 ## Histórias de Usuários
 

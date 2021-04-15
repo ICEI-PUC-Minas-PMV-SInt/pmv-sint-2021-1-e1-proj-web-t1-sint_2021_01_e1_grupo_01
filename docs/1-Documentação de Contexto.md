@@ -26,7 +26,7 @@ Vale ressaltar a dificuldade de encontrar  interfaces baseadas na experiência d
 
 ## Objetivos
 
-Este projeto busca desenvolver uma aplicação web que contenha informações sobre as ocorrências de eventos astronômicos baseados na localização informada pelo usuário.
+Este projeto busca desenvolver uma aplicação web que contenha informações sobre as ocorrências astronômicas baseados na localização informada pelo usuário.
 
 Tem como objetivo específico:
 

@@ -18,7 +18,7 @@ Assim, neste documento serão abordadas as definições de persona, histórias d
     <th>Hobbies, História</th>
   </tr>
   <tr>
-    <td><img title="Jose Augusto" src="https://i.imgur.com/APc56HT.jpg" width="120" height="120" /></td>
+    <td><img title="Jose Augusto" src="https://i.imgur.com/APc56HT.jpg"/></td>
     <td>José Augusto</td>
     <td>
       <ul>
@@ -54,7 +54,7 @@ Assim, neste documento serão abordadas as definições de persona, histórias d
     </td>
   </tr>
   <tr>
-    <td><img title="Maria Eugênia" src="https://i.imgur.com/EZmVbet.jpg" width="120" height="120" /></td>
+    <td><img title="Maria Eugênia" src="https://i.imgur.com/EZmVbet.jpg"/></td>
     <td>Maria Eugênia</td>
     <td>
       <ul>
@@ -90,7 +90,7 @@ Assim, neste documento serão abordadas as definições de persona, histórias d
     </td>
   </tr>
   <tr>
-    <td><img title="Renato Luís" src="https://i.imgur.com/rGQVtoe.jpg" width="100" height="100" /></td>
+    <td><img title="Renato Luís" src="https://i.imgur.com/rGQVtoe.jpg" /></td>
     <td>Renato Luís</td>
     <td>
       <ul>
@@ -128,8 +128,7 @@ Assim, neste documento serão abordadas as definições de persona, histórias d
   </tr>
   <tr>
     <td><img title="Eduardo"
-        src="https://images.generated.photos/4kl3NFu9b1hfPOPq4U4gvFCE0HG_PEdFj2CQDhKK4WQ/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Ry/YW5zcGFyZW50X3Yz/L3YzXzAzMTg5ODYu/cG5n.png"
-        width="120" height="120" /></td>
+        src="https://images.generated.photos/4kl3NFu9b1hfPOPq4U4gvFCE0HG_PEdFj2CQDhKK4WQ/rs:fit:512:512/wm:0.95:sowe:18:18:0.33/Z3M6Ly9nZW5lcmF0/ZWQtcGhvdG9zL3Ry/YW5zcGFyZW50X3Yz/L3YzXzAzMTg5ODYu/cG5n.png"/></td>
     <td>Eduardo</td>
     <td>
       <ul>

@@ -41,27 +41,27 @@ Tem como objetivo específico:
 
 Ao observar a lacuna existente nas aplicações web quanto a exploração clara, intuitiva e organizada da astronomia, bem como a falta de recursos disponíveis para a verificação de fenômenos astronômicos baseados na geolocalização do usuário, notou-se a viabilidade de elaborar este projeto com ênfase na produção de uma aplicação que solucione as problemáticas abordadas.
 
-A necessidade de discussão sobre astronomia é pertinente para a formação do cidadão consciente quanto às problemáticas que afligem diversos campos de conhecimento, <ins>como afirmam <ins>os autores Rodolfo Langhi e Roberto Nardi:
+A necessidade de discussão sobre astronomia é pertinente para a formação do cidadão consciente quanto às problemáticas que afligem diversos campos de conhecimento, como afirmam os autores Rodolfo Langhi e Roberto Nardi:
 
 > No entanto, além das justificativas apresentadas neste estudo, acima
-> de tudo, <ins>a opção pela seleção de temas significativos de Astronomia a
+> de tudo, a opção pela seleção de temas significativos de Astronomia a
 > serem trabalhados na Educação Básica e na formação de professores pode
 > conduzir, afinal, <ins>à compreensão da natureza humana e despertar o aluno
 > e o professor para a cidadã responsabilidade planetária individual e
 > coletiva, enquanto um ser habitante do único corpo celeste conhecido
-> que pode nos abrigar vivos. (grifo nosso)
+> que pode nos abrigar vivos.</ins> (grifo nosso)
 
 Além do desenvolvimento de um cidadão consciente, o conhecimento astronômico permite o avanço tecnológico, estando seus conceitos presentes em diversas criações, como afirmam os autores Claudio André Dias e Josué Santa Rita:
 
-> Devido ao seu elevado caráter interdisciplinar e à possibilidade de
-> diversas interfaces com outras disciplinas (Física, Química, Biologia,
+> <ins>Devido ao seu elevado caráter interdisciplinar e à possibilidade de
+> diversas interfaces com outras disciplinas</ins> (Física, Química, Biologia,
 > História, Geografia,Educação Artística,...), os conteúdos de
-> Astronomia podem proporcionar aos alunos uma visão menos fragmentada
+> Astronomia podem proporcionar aos alunos uma <ins>visão menos fragmentada
 > do conhecimento, pensando mais adiante, esta disciplina ainda poderia
-> atuar como integradora de conhecimentos.
-> Uma amostra prática dessa interdisciplinaridade está ligada à evolução
+> atuar como integradora de conhecimentos.</ins>
+> Uma amostra prática dessa interdisciplinaridade está ligada à <ins>evolução
 > tecnológica que o estudo da astronomia tem propiciado em diversas
-> áreas do conhecimento. Por exemplo, o desenvolvimento de antenas,
+> áreas do conhecimento.</ins> Por exemplo, o desenvolvimento de antenas,
 > espelhos, telescópios, vem permitindo o monitoramento do espaço e da
 > própria Terra, facilitando a pesquisa nas áreas das ciências
 > espaciais, meteorologia, telecomunicações e geociências, além de
@@ -72,17 +72,17 @@ Além do desenvolvimento de um cidadão consciente, o conhecimento astronômico 
 
 Sendo assim, a astronomia indiscutivelmente apresenta-se como uma instrução necessária que deve ser incentivada independente da idade e grau de conhecimento do indivíduo. Porém, com a lacuna de fontes de informação que, além de despertarem interesse e curiosidade, possuam um conteúdo confiável de fácil assimilação e entendimento, a procura pelo desenvolvimento acaba por se tornar escasso, afirmam os autores Rodolfo Langhi e Roberto Nardi:
 
-> [...] há carência de fontes seguras sobre Astronomia, pois até mesmo
-> livros didáticos continuam apresentando erros conceituais. A mídia é
-> escassa em documentários sobre este tema, e muitas vezes prefere
+> [...] <ins>há carência de fontes seguras sobre Astronomia,</ins> pois até mesmo
+> livros didáticos continuam apresentando erros conceituais. <ins>A mídia é
+> escassa em documentários sobre este tema,</ins> e muitas vezes prefere
 > exagerar no sensacionalismo em notícias que envolvem assuntos sobre o
-> cosmo. Não temos uma quantidade suficiente de planetários,
+> cosmo. <ins>Não temos uma quantidade suficiente de planetários,
 > observatórios, museus de ciências e associações de astrônomos amadores
 > que poderiam servir de eficiente apoio ao ensino de Astronomia nas
-> escolas. Deste modo, ocorre uma constante perda de valorização
+> escolas.</ins> Deste modo, <ins>ocorre uma constante perda de valorização
 > cultural e falta do hábito de olhar para o céu, reforçado pelo estilo
 > de vida cada vez mais urbano e pelo excesso de iluminação pública mal
-> direcionada, causando a poluição luminosa, que ofusca a maior parte
+> direcionada,</ins> causando a poluição luminosa, que ofusca a maior parte
 > das estrelas no céu, além de trazer desperdício de energia elétrica e
 > consequências ao meio ambiente. (grifo nosso)
 

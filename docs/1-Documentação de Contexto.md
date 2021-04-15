@@ -20,9 +20,9 @@ O projeto em questão trás a melhoria e criação de um Website para visualiza�
 
 ## Problema
 
-Atualmente o usuário interessado em informações astronômicas, independente do nível de conhecimento específico nessa área, depara-se com a dificuldade em encontrar uma aplicação web que demonstre as previsões de eventos astronômicos visíveis a partir de sua geolocalização.
+Atualmente o usuário interessado em informações astronômicas, independente do nível de conhecimento específico nessa área, depara-se com a dificuldade em encontrar uma aplicação web que demonstre as previsões de ocorrências astronômicas visíveis a partir de sua geolocalização.
 
-Vale ressaltar a dificuldade de encontrar interfaces baseadas na experiência do usuário, ou seja, simples e interativas, que tratem sobre o tema abordado.
+Vale ressaltar a dificuldade de encontrar  interfaces baseadas na experiência do usuário, ou seja,  simples e interativas, que tratem sobre o tema abordado.
 
 ## Objetivos
 

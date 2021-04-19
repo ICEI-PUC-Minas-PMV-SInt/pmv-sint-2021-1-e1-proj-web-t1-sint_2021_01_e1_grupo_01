@@ -159,7 +159,7 @@ Assim, neste documento serão abordadas as definições de persona, histórias d
       <li>Passar tempo com seus netos</li>
       <li>Assistir tv</li>
       <li>Desde que se aposentou começou a se interessar mais pela astronomia, então quer encontrar um site que o ajude
-        a entender mais.</li>
+        a entender mais</li>
     </td>
   </tr>
 </table>

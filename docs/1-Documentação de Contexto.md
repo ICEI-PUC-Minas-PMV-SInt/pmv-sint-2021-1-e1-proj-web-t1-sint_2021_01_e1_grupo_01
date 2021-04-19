@@ -41,7 +41,7 @@ Tem como objetivo específico:
 
 Ao observar a lacuna existente nas aplicações web quanto a exploração clara, intuitiva e organizada da astronomia, bem como a falta de recursos disponíveis para a verificação de fenômenos astronômicos baseados na geolocalização do usuário, notou-se a viabilidade de elaborar este projeto com ênfase na produção de uma aplicação que solucione as problemáticas abordadas.
 
-A necessidade de discussão sobre astronomia é pertinente para a formação do cidadão consciente quanto às problemáticas que afligem diversos campos de conhecimento, como afirmam os autores Rodolfo Langhi e Roberto Nardi:
+A necessidade de discussão sobre astronomia, é pertinente para a formação do cidadão consciente quanto às problemáticas que afligem diversos campos de conhecimento, como afirmam os autores Rodolfo Langhi e Roberto Nardi:
 
 > No entanto, além das justificativas apresentadas neste estudo, acima
 > de tudo, a opção pela seleção de temas significativos de Astronomia a
@@ -70,7 +70,7 @@ Além do desenvolvimento de um cidadão consciente, o conhecimento astronômico 
 > pesquisas astronômicas, este último é utilizado para diagnóstico de
 > tumores e na indústria de semicondutores. (grifo nosso)
 
-Sendo assim, a astronomia indiscutivelmente apresenta-se como uma instrução necessária que deve ser incentivada independente da idade e grau de conhecimento do indivíduo. Porém, com a lacuna de fontes de informação que, além de despertarem interesse e curiosidade, possuam um conteúdo confiável de fácil assimilação e entendimento, a procura pelo desenvolvimento acaba por se tornar escasso, afirmam os autores Rodolfo Langhi e Roberto Nardi:
+Sendo assim, a astronomia indiscutivelmente apresenta-se como uma instrução necessária que deve ser incentivada independente da idade e grau de conhecimento do indivíduo. Porém, com a lacuna de fontes de informação que despertem interesse, curiosidade e que possuam um conteúdo confiável de fácil assimilação, a procura pelo desenvolvimento acaba por se tornar escassa, afirmam os autores Rodolfo Langhi e Roberto Nardi:
 
 > [...] <ins>há carência de fontes seguras sobre Astronomia,</ins> pois até mesmo
 > livros didáticos continuam apresentando erros conceituais. <ins>A mídia é

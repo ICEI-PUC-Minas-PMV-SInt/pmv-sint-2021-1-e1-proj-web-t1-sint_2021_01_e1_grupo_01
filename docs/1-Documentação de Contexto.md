@@ -14,9 +14,9 @@ Vários estudos – como apresentado pela Revista de Iniciação Científica em 
 
 O desenvolvimento da ciência e tecnologia em um país ou região está intimamente relacionado ao seu índice de desenvolvimento humano, que é um dado estatístico que mede a expectativa de vida, educação e renda (Truman, 1949).
 
-Vale registrar que, em 2007 foi desenvolvido e disponibilizado pela NASA (National Aeronautics and Space Administration) um website com objetivo visualização dos Eclipses Lunares, sendo possível determinar a data, longitude e latitude do local exato para visualização do fenômeno.
+Vale registrar que, em 2007 foi desenvolvido e disponibilizado pela NASA (National Aeronautics and Space Administration) um website com objetivo de visualizar os Eclipses Lunares, sendo possível determinar a data, longitude e latitude do local exato para visualização do fenômeno.
 
-O projeto em questão trás a melhoria e criação de um Website para visualização de fenômenos astronômicos como um geral, uma vez que, foi detectada a falta de sistemas referente ao tema do projeto em questão, sendo observado o grande número de sites de notícia com tal intuito, com isso, para auxiliar não apenas no conhecimento do público interessado mas estimular o interesse nos usuários com a astronomia.
+O projeto em questão trás a criação e melhoria de um Website para visualização de fenômenos astronômicos como um geral, uma vez que, foi detectada a falta de sistemas referente ao tema do projeto em questão, sendo observado o grande número de sites de notícia com tal intuito, com isso, para auxiliar não apenas no conhecimento do público interessado mas estimular o interesse nos usuários pela astronomia.
 
 ## Problema
 

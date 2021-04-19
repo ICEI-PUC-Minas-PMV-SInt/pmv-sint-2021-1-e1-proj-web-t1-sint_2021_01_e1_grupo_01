@@ -50,7 +50,7 @@ Assim, neste documento serão abordadas as definições de persona, histórias d
     <td>
       <li>Ler revista Recreio</li>
       <li>Filmes de ação e ficção científica</li>
-      <li>Recentemente, descobriu que gosta muito da NASA, Space X e de astros, então quer aprender mais sobre.</li>
+      <li>Recentemente, descobriu que gosta muito da NASA, Space X e de astros, então quer aprender mais sobre</li>
     </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Assim, neste documento serão abordadas as definições de persona, histórias d
       <li>Fotografia</li>
       <li>Música</li>
       <li>Desde que comprou um telescópio não conseguiu tirar os olhos do céu, porém ela nunca sabe quando vai ocorrer
-        cada evento astronômico e se será capaz de vê-los.</li>
+        cada evento astronômico e se será capaz de vê-los</li>
     </td>
   </tr>
   <tr>
@@ -116,7 +116,7 @@ Assim, neste documento serão abordadas as definições de persona, histórias d
     <td>
       <li>Não encontra sites bons sobre astronomia</li>
       <li>Não consegue engajar os alunos</li>
-      <li>Pensa em comprar telescópio, mas antes quer saber se vai conseguir ver vários fenômenos.</li>
+      <li>Pensa em comprar telescópio, mas antes quer saber se vai conseguir ver vários fenômenos</li>
     </td>
     <td>
       <li>Música</li>

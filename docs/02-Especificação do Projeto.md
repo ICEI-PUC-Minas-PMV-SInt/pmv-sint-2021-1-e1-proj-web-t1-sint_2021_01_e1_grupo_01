@@ -180,31 +180,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| Permitir busca por localização | MÉDIA | 
+|RF-002| Permitir busca por palavra-chave referente a ocorrência astronômica   | MÉDIA |
+|RF-003| Tela informativa sobre ocorrências astronômicas   | MÉDIA |
+|RF-004| Apresentar calendário mensal de ocorrências astronômicas   | MÉDIA |
+|RF-005| Permitir que o usuário visualize ocorrências astronômicas visíveis   | MÉDIA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| O sistema deve ser web | MÉDIA | 
+|RNF-002| O sistema será desenvolvido em HTML5, CSS3 e JS |  MÉDIA  | 
+|RNF-003| O sistema deverá se comunicar com o banco de dados |  MÉDIA  | 
+|RNF-004| Acesso a API’s referente a localização do usuário e a visualização de ocorrências astronômicas |  MÉDIA  | 
 
 ## Restrições
 

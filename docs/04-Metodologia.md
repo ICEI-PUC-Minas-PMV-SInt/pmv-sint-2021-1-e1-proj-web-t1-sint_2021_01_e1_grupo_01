@@ -29,12 +29,22 @@ etiquetas:
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+<table>
+    <tr>
+        <th>Product Manager</th>
+        <th>Full Stack 1</th>
+        <th>Full Stack 2</th>
+        <th>Full Stack 3</th>
+        <th>Full Stack 4</th>
+    </tr>
+    <tr>
+        <td>Ana Luiza Lima</td>
+        <td>Déborah Souza</td>
+        <td>Erick Ribeiro</td>
+        <td>Paulo Henrique</td>
+        <td>Thais Silva</td>
+    </tr>
+</table>
 
 ### Processo
 

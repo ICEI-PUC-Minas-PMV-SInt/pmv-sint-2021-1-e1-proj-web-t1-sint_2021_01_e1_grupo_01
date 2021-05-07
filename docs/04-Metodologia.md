@@ -1,7 +1,7 @@
 
 # Metodologia
 
-No desenvolvimento da nossa aplicação web utilizaremos uma combinação de práticas ágeis afim de obtermos uma melhor produtividade e qualidade do produto.
+No desenvolvimento do projeto em questão, sera utilizado uma combinação de práticas ágeis afim de se obter uma melhor produtividade e qualidade do produto.
 
 - `Extreme Programming (XP): `Foi criado por Kent Beck, Ward Chunningham e Ron Jeffries durante a década de 90. Eles se juntaram para criar uma metodologia ágil que lidasse bem com requisitos vagos que mudavam frequentemente, equipes pequenas e que ao inves de ser focado em criar artefatos burocraticos focasse no desenvolvimento. O XP é uma metodologia ágil focada em qualidade de código, teste e outras boas práticas de engenharia.
 
@@ -50,7 +50,7 @@ etiquetas:
 
 ### Processo
 
-Nossas reuniões acontecem de formas periodicas seguindo o processo XP.
+As reuniões são realizadas de forma periódica seguindo o processo XP.
 
 - `Daily & Iteration` realizada diariamente as 19:30
 - `Planejamento de Release` realizada semanalmente as terças-feiras as 21:00
@@ -60,11 +60,11 @@ Nossas reuniões acontecem de formas periodicas seguindo o processo XP.
 
 - `Board de Atividade` artefato originário do Kanban
 
-Para gestão de nossas TASK's utilizaremos o board de atividade para podermos visualizar melhor o fluxo de nossas tarefas.
+Para a gestão das TASK's será utilizado o board de atividade para que possa ser visualizado o fluxo das tarefas.
 
 ![Board de Atividade](img/board_de_atividades.png)
 
-Os requisitos que serão implementados deverão ser escritos em usery story.
+Os requisitos que serão implementados deverão ser escritos em user story.
 
 - `Usery Story` artefato originário do XP
 

@@ -60,10 +60,12 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 As ferramentas empregadas no projeto são:
 
-Visual Studo ou qualquer outro editor de texto.
-Teams (Canal de comunicação oficial do curso)
-WhatsApp (Canal de comunicação informal e rápida do time)
-Figma, AdobeXD e Axure(Ferramenta para Prototipar nossas interfaces)
-Flow Chart (Ferramenta usada pala elaborar nosso diagrama e arquitetura)
-Miro (Ferramenta utilizada para centralizar as ideias estabelecidas durantes as call)
-GitHub (Ferramenta utilizada para gerenciamento e versionamento do Projeto)
+<ul>
+    <li>Visual Studo ou qualquer outro editor de texto;</li>
+    <li>Teams (Canal de comunicação oficial do curso);</li>
+    <li>WhatsApp (Canal de comunicação informal e rápida do time);</li>
+    <li>Figma, AdobeXD e Axure(Ferramenta para Prototipar nossas interfaces);</li>
+    <li>Flow Chart (Ferramenta usada pala elaborar nosso diagrama e arquitetura);</li>
+    <li>Miro (Ferramenta utilizada para centralizar as ideias estabelecidas durantes as call);</li>
+    <li>GitHub (Ferramenta utilizada para gerenciamento e versionamento do Projeto);</li>
+</ul>

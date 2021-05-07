@@ -180,11 +180,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir busca por localização | MÉDIA | 
-|RF-002| Permitir busca por palavra-chave referente a ocorrência astronômica   | MÉDIA |
-|RF-003| Tela informativa sobre ocorrências astronômicas   | MÉDIA |
-|RF-004| Apresentar calendário mensal de ocorrências astronômicas   | MÉDIA |
-|RF-005| Permitir que o usuário visualize ocorrências astronômicas visíveis   | MÉDIA |
+|RF-001| Permitir busca por palavra-chave referente a ocorrência astronômica   | MÉDIA |
+|RF-002| Tela informativa sobre ocorrências astronômicas   | MÉDIA |
+|RF-003| Apresentar calendário de ocorrências astronômicas   | MÉDIA |
+|RF-004| Permitir que o usuário visualize ocorrências astronômicas visíveis   | MÉDIA |
+|RF-005| Usuário terá a permissão para visualização da página em Light and Dark Mode    | MÉDIA |
+|RF-006| Será possível visualizar em uma página os integrantes do grupo    | MÉDIA |
+|RF-007| Ao clicar na logo deverá ser redirecionado a página inicial    | MÉDIA |
+|RF-008| Ao executar o scroll na tela inical deve ser levada para a tela de eventos astronômicos   | MÉDIA |
 
 ### Requisitos não Funcionais
 
@@ -192,8 +195,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser web | MÉDIA | 
 |RNF-002| O sistema será desenvolvido em HTML5, CSS3 e JS |  MÉDIA  | 
-|RNF-003| O sistema deverá se comunicar com o banco de dados |  MÉDIA  | 
-|RNF-004| Acesso a API’s referente a localização do usuário e a visualização de ocorrências astronômicas |  MÉDIA  | 
+|RNF-003| Utilização de Local Storage para armazenamento das ocorrências astronômicas |  MÉDIA| 
+
 
 ## Restrições
 

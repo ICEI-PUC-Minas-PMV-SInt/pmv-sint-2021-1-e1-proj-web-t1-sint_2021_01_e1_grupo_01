@@ -50,12 +50,25 @@ etiquetas:
 
 ### Processo
 
-#### Cerimonias
-- `Daily` realizada diariamente as 19:30
+Nossas reuniões acontecem de formas periodicas seguindo o processo XP.
+
+- `Daily & Iteration` realizada diariamente as 19:30
 - `Planejamento de Release` realizada semanalmente as terças-feiras as 21:00
 - `Retrospectivas` acontecem de acordo com as entregas
 
-#### Artefatos
+![Extreme Programming Project](img/xp-project.png)
+
+- `Board de Atividade` artefato originário do Kanban
+
+Para gestão de nossas TASK's utilizaremos o board de atividade para podermos visualizar melhor o fluxo de nossas tarefas.
+
+![Board de Atividade](img/board_de_atividades.png)
+
+Os requisitos que serão implementados deverão ser escritos em usery story.
+
+- `Usery Story` artefato originário do XP
+
+![Usery Story](img/user_story.jpg)
 
 ### Ferramentas
 

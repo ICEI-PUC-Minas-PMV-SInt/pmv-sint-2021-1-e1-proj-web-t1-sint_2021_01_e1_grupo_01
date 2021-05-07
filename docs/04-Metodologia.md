@@ -1,9 +1,11 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+No desenvolvimento da nossa aplicação web utilizaremos uma combinação de práticas ágeis afim de obtermos uma melhor produtividade e qualidade do produto.
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+- `Extreme Programming (XP): `Foi criado por Kent Beck, Ward Chunningham e Ron Jeffries durante a década de 90. Eles se juntaram para criar uma metodologia ágil que lidasse bem com requisitos vagos que mudavam frequentemente, equipes pequenas e que ao inves de ser focado em criar artefatos burocraticos focasse no desenvolvimento. O XP é uma metodologia ágil focada em qualidade de código, teste e outras boas práticas de engenharia.
+
+- `Kanban: `Foi criado originalmente pela Toyota (montadora de carros), posteriormente David Anderson nos anos 2000 aprimorou esta metodologia visando gestão de fluxo das empresas. O Kanban trabalha em cima dos conceitos de manufatura Lean promovendo uma autonomia e transparencia no ciclo de desenvolvimento.
 
 ## Controle de Versão
 
@@ -14,8 +16,8 @@ foi utilizado para hospedagem do repositório.
 O projeto segue a seguinte convenção para o nome de branchs:
 
 - `master`: versão estável já testada do software
-- `feauture/develop`: versão já testada do software, porém instável
-- `feauture/card`: versão de desenvolvimento do software
+- `feature/develop`: versão já testada do software, porém instável
+- `feature/card`: versão de desenvolvimento do software
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
@@ -48,13 +50,12 @@ etiquetas:
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+#### Cerimonias
+- `Daily` realizada diariamente as 19:30
+- `Planejamento de Release` realizada semanalmente as terças-feiras as 21:00
+- `Retrospectivas` acontecem de acordo com as entregas
+
+#### Artefatos
 
 ### Ferramentas
 

@@ -75,7 +75,7 @@ Os requisitos que serão implementados deverão ser escritos em user story.
 As ferramentas empregadas no projeto são:
 
 <ul>
-    <li>Visual Studo ou qualquer outro editor de texto;</li>
+    <li>Visual Studio ou qualquer outro editor de texto;</li>
     <li>Teams (Canal de comunicação oficial do curso);</li>
     <li>WhatsApp (Canal de comunicação informal e rápida do time);</li>
     <li>Figma, AdobeXD e Axure(Ferramenta para Prototipar nossas interfaces);</li>

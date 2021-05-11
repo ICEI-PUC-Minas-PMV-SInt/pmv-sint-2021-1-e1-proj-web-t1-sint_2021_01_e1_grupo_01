@@ -1,8 +1,12 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+O projeto em questão está sendo estruturado com o auxílio de algumas ferramentas essenciais para a obtenção de melhores resultados. No que diz respeito a parte da edição de texto, desenvolvimento de HTML5, CSS3 e Javascript, está sendo utilizado o Visual Studio, sendo um ambiente de desenvolvimento integrado da Microsoft para desenvolvimento de software. 
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Para ser efetuado uma conexão entre os participantes do grupo, está sendo utilizado o Teams, como canal de comunicação oficial, e o Whatsapp, como canal de comunicação informal, onde ocorre o compartilhamento de algumas informações adicionais e agendamento dos outros encontros semanais. 
+
+Para a prototipação de interfaces, utilizamos o Figma, Adobe XD e AXure. O diagrama e a arquitetura foram elaborados com o Flow Chart. Para organizar as ideias que são estabelecidas durante os encontros virtuais, está sendo utilizado o Miro. 
+
+Como hospedagem do projeto será utilizado Heroku. E, para o gerenciamento e versionamento do projeto, utilizamos o GitHub, facilitando o controle de versões de um software ou aplicação.
 
 ## Diagrama de componentes
 
@@ -12,22 +16,15 @@ Exemplo:
 
 Os componentes que fazem parte da solução são apresentados na Figura XX.
 
-![Diagrama de Componentes](img/componentes.png)
-<center>Figura XX - Arquitetura da Solução</center>
+![Diagrama de Componentes](img/arquitetura.jpeg)
 
 A solução implementada conta com os seguintes módulos:
-- **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+- **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
+- **Navegador** - Interface básica do sistema onde o usuário irá interagir.  
+   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. 
+ - **Servidor** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+ 
 
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
 
 Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
 
@@ -55,7 +52,7 @@ escolher salvar ou deletar o post. Em ambos os casos o status é
 notificado para o usuário (Tela 8) e em seguida ele é redirecionado
 para a Tela 2.
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](img/userflow.png)
 
 
 ## Tecnologias Utilizadas

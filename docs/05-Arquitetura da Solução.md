@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+O projeto em questão está sendo estruturado com o auxílio de algumas ferramentas essenciais para a obtenção de melhores resultados. No que diz respeito a parte da edição de texto, desenvolvimento de HTML5, CSS3 e Javascript, está sendo utilizado o Visual Studio,  sendo um ambiente de desenvolvimento integrado da Microsoft para desenvolvimento de software. Para ser efetuado uma conexão entre os participantes do grupo, está sendo utilizado o Teams, como canal de comunicação oficial, e o Whatsapp, como canal de comunicação informal, onde ocorre o compartilhamento de algumas informações adicionais e agendamento dos outros encontros semanais. Para a prototipação de interfaces, utilizamos o Figma, Adobe XD e AXure. O diagrama e a arquitetura foram elaborados com o Flow Chart. Para organizar as ideias que são estabelecidas durante os encontros virtuais, está sendo utilizado o Miro. Como hospedagem do projeto será utilizado Heroku. E, para o gerenciamento e versionamento do projeto, utilizamos o GitHub, facilitando o controle de versões de um software ou aplicação.
 
 ## Diagrama de componentes
 
@@ -12,7 +12,7 @@ Exemplo:
 
 Os componentes que fazem parte da solução são apresentados na Figura XX.
 
-![Diagrama de Componentes](img/componentes.png)
+![Diagrama da Arquitetura](img/arquitetura.png)
 <center>Figura XX - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <title>Base 64</title>
+</head>
+<body>
+    <h1>Conversor de Imagem em Base64</h1>
+    <input type="file" /> <br />
+
+    <img width="250" alt="Prévia da Imagem" class="center"/>
+    
+    <textarea style="width: 70%;height: 100px;"></textarea>
+
+    <button type="button">Download</button>
+
+    <script>
+      document.getElementsByTagName("input")[0].addEventListener('change', previewFile);
+      document.getElementsByTagName("textarea")[0].addEventListener('input', previewText);
+      document.getElementsByTagName("button")[0].addEventListener('click', downloadFile);
+      
+      let preview = document.querySelector('img');
+      
+      function previewFile(event) {
+        let reader = new FileReader();
+        let file = event.target.files[0];
+      
+        reader.readAsDataURL(file);
+        reader.onloadend = () =>  {
+          preview.src = reader.result;
+          document.getElementsByTagName("textarea")[0].value = reader.result;
+        }
+      }
+      
+      function previewText(event) {
+        let file = event.target.value.replace(/^data:image\/[a-z]+;base64,/, "");
+        preview.src = `data:image/png;base64, ${file}`;
+      }
+      
+      function downloadFile() {
+        let nameFile = "Astrocal.png";
+        let a = document.createElement("a");
+        a.href = preview.src;
+        a.download = nameFile;
+        a.click();
+      }</script>
+  </body>
+</html>

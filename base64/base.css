@@ -1,0 +1,29 @@
+h1{
+    font-family: 'Merriweather', serif;
+    text-decoration: #006d77 underline;
+    text-align: center;
+}
+
+body{
+    background-color:whitesmoke;
+    font-family:'Merriweather', serif;
+    font-size: medium;
+}
+
+input{
+    font-size: medium;
+    
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea{
+    background-color: #edf6f9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

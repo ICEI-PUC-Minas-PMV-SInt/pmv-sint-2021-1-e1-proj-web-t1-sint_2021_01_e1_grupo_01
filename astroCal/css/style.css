@@ -3,3 +3,8 @@
     right: 50px;
     bottom: 50px;
 }
+
+.main {
+    background-color: aliceblue;
+    height: 100vh;
+}   

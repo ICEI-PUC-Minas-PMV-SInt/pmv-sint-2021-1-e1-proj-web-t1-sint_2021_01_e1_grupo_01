@@ -8,13 +8,18 @@ function saveEvent() {
     newEvent.short_descripton = document.getElementById("short_descripton").value;
     newEvent.data_event = document.getElementById("data_event").value;
     newEvent.location = document.getElementById("location").value;
-    newEvent.tag = document.getElementById("tag").value;
+    var i;
+    var tags = [];
+    for (i = 0; i < document.querySelectorAll('[id="tag"]')[0].getElementsByTagName('div').length; i++) {
+        tags.push(document.querySelectorAll('[id="tag"]')[0].getElementsByTagName('div')[i].innerText.replace("close","").replace(/(\r\n|\n|\r)/gm, ""));
+    }
+    newEvent.tag = tags;
     newEvent.photo = document.getElementById("photo").value;
     newEvent.full_descripton = document.getElementById("full_descripton").value;
 
     var stageLocalStorage = JSON.stringify(newEvent);
 
-    localStorage.setItem(newEvent.id, stageLocalStorage);
+    localStorage.setItem(newEvent.id, stageLocalStorage);  
 }
 
 

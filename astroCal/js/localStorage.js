@@ -1,5 +1,14 @@
 var localStorage = Window.localStorage;
 
+//não me orgulho deste codigo que foi criado, estava bebado. Alterar futuramente para uma function
+document.querySelector("#photoEvent").addEventListener("change", function(){
+    const reader = new FileReader();
+    reader.addEventListener("load", () => {
+        imageEvent = reader.result;
+    });
+    reader.readAsDataURL(this.files[0]);
+});
+
 function saveEvent() {
     var newEvent = new Object();
 
@@ -9,15 +18,12 @@ function saveEvent() {
     newEvent.data_event = document.getElementById("data_event").value;
     newEvent.location = document.getElementById("location").value;
     newEvent.tag = document.getElementById("tag").value;
-    newEvent.photo = document.getElementById("photo").value;
+    newEvent.photo = imageEvent;
     newEvent.full_descripton = document.getElementById("full_descripton").value;
 
     var stageLocalStorage = JSON.stringify(newEvent);
-
     localStorage.setItem(newEvent.id, stageLocalStorage);
 }
-
-
 
 function CreateGuid(){
     function _p8(s) {  

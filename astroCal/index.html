@@ -15,7 +15,7 @@
 
         <!-- chamada da biblioteca de js do materialize -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        
+
 
         <!-- TODO: Abstrair o CSS para um arquivo separado -->
         <style>
@@ -35,82 +35,90 @@
     <!-- TODO: Ajustar obrigatoriedade dos campos -->
     <!-- TODO: Aumentar o tamanho do modal -->
     <div id="saveEvent" class="modal">
-        <div class="modal-content">
-                
+        <form>
+            <div class="modal-content">
+
             <!-- Inicio do Formulario -->
-            <div class="row">
-                <div class="col s12">
-                    
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input placeholder="Ex: Eclipse Lunar, Conjunção Marte com Vênus" id="name" type="text" class="validate">
-                            <label for="name">Nome da Ocorrência Astronômica</label>
-                        </div>
-                    </div>
+                <div class="row">
+                    <div class="col s12">
 
-
-                    <!-- TODO: adicionar limitação de caracter neste card -->
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <textarea placeholder="Informe uma breve descrição sobre da ocorrência..." id="short_descripton" class="materialize-textarea"></textarea>
-                            <label for="short_descripton">Descrição</label>
-                        </div>
-                    </div>
-
-                    <!-- TODO: corrigir a tabindex e bloquear a digitacao no campo data -->
-                    <div class="row">
-                        <div class="input-field col s12 m6">
-                            <input placeholder="Informe a data que ocorrerá a ocorrência" type="text" id="data_event" class="datepicker">
-                            <label for="data_event">Data da Ocorrência</label>
-                        </div>
-                        <div class="input-field col s12 m6">
-                            <textarea placeholder="Informe em quais locais será possível visualizar ocorrência" id="location" class="materialize-textarea"></textarea>
-                            <label for="location">Localização</label>
-                        </div>
-                    </div>
-
-
-                    <!-- Corrigir o debito tecnico, placeholder incompleto -->
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="chips chips-placeholder" id="tag"></div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="file-field input-field col s12">
-                            <div class="btn">
-                              <i class="material-icons">image</i>
-                              <input type="file">
-                            </div>
-                            <div class="file-path-wrapper">
-                              <input placeholder="Selecione a imagem do evento" class="file-path validate" type="text" id="photo">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input placeholder="Ex: Eclipse Lunar, Conjunção Marte com Vênus" id="name" type="text"
+                                    class="validate" required>
+                                <label for="name">Nome da Ocorrência Astronômica</label>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <textarea placeholder="Caso queira adione mais Informações sobre a ocorrência" id="short_descripton2" class="materialize-textarea"></textarea>
-                            <label for="full_descripton">Mais Informações</label>
+                        <!-- TODO: adicionar limitação de caracter neste card -->
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input placeholder="Informe uma breve descrição sobre da ocorrência..."
+                                    id="short_descripton" type="text" class="validate" minlength="10" maxlength="300"
+                                    required>
+                                <label for="short_descripton">Descrição</label>
+                            </div>
                         </div>
+
+                        <!-- TODO: corrigir a tabindex e bloquear a digitacao no campo data -->
+                        <div class="row">
+                            <div class="input-field col s12 m6">
+                                <input placeholder="Informe a data que ocorrerá a ocorrência" type="date"
+                                    id="data_event" class="validate" required>
+                                <label for="data_event">Data da Ocorrência</label>
+                            </div>
+                            <div class="input-field col s12 m6">
+                                <input placeholder="Informe em quais locais será possível visualizar ocorrência"
+                                    id="location" type="text" class="validate" required>
+                                <label for="location">Localização</label>
+                            </div>
+                        </div>
+
+
+                        <!-- Corrigir o debito tecnico, placeholder incompleto -->
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="chips chips-placeholder" id="tag"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="file-field input-field col s12">
+                                <div class="btn">
+                                    <i class="material-icons">image</i>
+                                    <input type="file">
+                                </div>
+                                <div class="file-path-wrapper">
+                                    <input placeholder="Selecione a imagem do evento" class="file-path validate" type="text" id="photo">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input placeholder="Caso queira adione mais Informações sobre a ocorrência"
+                                    id="short_descripton2" type="text" class="validate">
+                                <label for="full_descripton">Mais Informações</label>
+                            </div>
+                        </div>
+
+
+
                     </div>
-
-
-
                 </div>
-            </div>
 
-            <!-- Fim do Formulario -->
-            
-        </div>
-        <div class="modal-footer">
-            <!-- TODO: Melhorar o botao de salvar -->
-            <a href="#!" class="modal-close waves-effect waves-red" id="newCard" onclick="saveEvent();">Salvar</a>
-        </div>
+                <!-- Fim do Formulario -->
+
+            </div>
+            <div class="modal-footer">
+                <!-- TODO: Melhorar o botao de salvar -->
+                <a href="#!" class="modal-close waves-effect waves-red" id="newCard" onclick="saveEvent();">Salvar</a>
+            </div>
+        </form>
     </div>
+
     <script type="text/javascript" src="./js/LocalStorange.js"></script>
     <script type="text/javascript" src="./js/script.js"></script>
-    
+
 </body>
 </html>

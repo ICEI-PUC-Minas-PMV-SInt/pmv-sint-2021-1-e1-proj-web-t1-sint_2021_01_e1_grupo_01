@@ -26,3 +26,30 @@ function CreateGuid(){
      }  
      return _p8() + _p8(true) + _p8(true) + _p8();
 }
+
+function formarCard() {
+
+    var currentId = localStorage.getItem('id');
+    //var currentTag = localStorage.getItem('tag');
+    //var currentFullDescription = localStorage.getItem('full_description');
+    var currentName = localStorage.getItem('name');
+    var currentShortDescription = localStorage.getItem('short_description');
+    var currentDate = localStorage.getItem('data_event');
+    var currentLocation = localStorage.getItem('location');
+    var currentPhoto = localStorage.getItem('photo');
+
+
+    if (currentId != null) {
+        for (let i = 0; i < localStorage.length; i++) {
+
+            console.log(document.getElementById('name')[i].value = currentName);
+            console.log(document.getElementById('short_description')[i].value = currentShortDescription);
+            console.log(document.getElementById('data_event')[i].value = currentDate);
+            console.log(document.getElementById('location')[i].value = currentLocation);
+            console.log(document.getElementById('photo')[i].value = currentPhoto);
+        }
+    }
+    else {
+        console.log("Nenhum dado foi encontrado.");
+    }
+}

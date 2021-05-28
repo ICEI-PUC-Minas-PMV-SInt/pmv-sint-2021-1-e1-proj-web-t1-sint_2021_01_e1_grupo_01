@@ -1,3 +1,7 @@
+.chips .input{
+    width: 320px !important;
+}
+
 .btnFixed {
     position: fixed;
     right: 50px;

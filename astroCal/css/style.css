@@ -1,0 +1,14 @@
+.chips .input{
+    width: 320px !important;
+}
+
+.btnFixed {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.main {
+    background-color: aliceblue;
+    height: 100vh;
+}   

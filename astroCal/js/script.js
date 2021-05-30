@@ -7,10 +7,6 @@ $(document).ready(function () {
 });
 
 $('.chips-placeholder').chips({
-    placeholder: "Adicione palavras chaves para a ocorrência",
+    placeholder: "Adicione palavras chaves para a ocorrência:",
     secondaryPlaceholder: '+Tag',
 });
-
-
-
-

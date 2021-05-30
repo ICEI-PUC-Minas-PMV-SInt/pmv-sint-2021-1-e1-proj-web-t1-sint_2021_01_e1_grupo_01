@@ -13,6 +13,7 @@
 - Erick Ribeiro
 - Thais Helena
 - Paulo Henrique Moura Da Silva
+- Carolina Dolacio Bechelli
 
 
 ## Professor

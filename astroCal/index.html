@@ -20,29 +20,16 @@
 
     <body>
         <!-- Modal Trigger -->
-        <a class="btnFixed btn-floating btn-large waves-effect waves-light red modal-trigger" href="#saveEvent"><i
-                class="material-icons">add</i></a>
+        <a class="btnFixed btn-floating btn-large waves-effect waves-light red modal-trigger" href="#saveEvent"><i class="material-icons">add</i></a>
 
         <section id="main" class="main">
             <!-- WIP -->
         </section>
 
-        
-        <section id="cards" class="cards">     
+        <section id="cards" class="cards">
             <!--Inicio do Card -->     
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m6 l4">
-                        <div class="card">
-                            <div class="card-image" id="imageResponse">
-                                <img src="./IMG/sample-1.jpg">
-                                <span class="card-title" id="nameResponse">Card Title</span>
-                            </div>
-                            <div class="card-content" id="short_descripton">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col s12 m6 l4">
                         <div class="card">
@@ -55,18 +42,16 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <!--Fim do Card -->
         </section>
          
-
         <!-- Modal Structure -->
-        <!-- TODO: Ajustar obrigatoriedade dos campos -->
-        <div id="saveEvent" class="modal">
+        <div id="saveEvent" class="modal modal-fixed-footer">
             <div class="modal-content">
-
-                <!-- Inicio do Formulario -->
+            <!-- Inicio do Formulario -->
                 <div class="row">
                     <div class="col s12">
 
@@ -87,7 +72,7 @@
                         <!-- TODO: corrigir a tabindex e bloquear a digitacao no campo data -->
                         <div class="row">
                             <div class="input-field col s12 m6">
-                                <input placeholder="Informe a data que ocorrerá a ocorrência" type="date" id="data_event" class="validate" required>
+                                <input placeholder="Informe a data que ocorrerá a ocorrência" type="text" id="data_event" class="datepicker">
                                 <label for="data_event">Data da Ocorrência</label>
                             </div>
                             <div class="input-field col s12 m6">
@@ -121,23 +106,25 @@
                             </div>
                         </div>
 
-
-
+                        <button class="modal-close btn waves-effect waves-light" href="#!" type="submit" onclick="saveEvent();" name="saveEvent" id="newCard">Salvar
+                            <i class="material-icons right">send</i>
+                        </button>
+                        
                     </div>
                 </div>
 
-                <!-- Fim do Formulario -->
+            <!-- Fim do Formulario -->
 
             </div>
             <div class="modal-footer">
+                
                 <!-- TODO: Melhorar o botao de salvar -->
-                <a href="#!" class="modal-close waves-effect waves-red" id="newCard" onclick="saveEvent();">Salvar</a>
             </div>
-        </form>
-    </div>
 
-    <script type="text/javascript" src="./js/LocalStorange.js"></script>
-    <script type="text/javascript" src="./js/script.js"></script>
+        </div>
 
-</body>
+        <script type="text/javascript" src="js/LocalStorage.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+
+    </body>
 </html>

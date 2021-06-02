@@ -36,14 +36,22 @@ function formarCard() {
 
 
 
-    atual=document.getElementById("relatorio"); 
+    atual=document.getElementById("cards"); 
     var html=""; 
     var keys = Object.keys(localStorage);
     keys.forEach(function(chave, pos){ 
-        let id = JSON.parse(localStorage.getItem(chave)); 
-        html = html+id.full_descripton; 
-    
-    });
-    document.getElementById("corpoTabela").innerHTML=html;
+        let id = JSON.parse(localStorage.getItem(chave));
+        html = html+'<div class="card">';
+        html = html+'<div class="card-image" id="imageResponse">';
+        html = html+'<img src="'+id.photo+'">';
+        html = html+'<span class="card-title" id="nameResponse">'+id.name+'</span>';
+        html = html+'</div>';
+        html = html+'<div class="card-content" id="short_descripton">';
+        html = html+'<p>'+id.full_descripton+'</p>';
+        html = html+'</div>';
+        html = html+'</div>';
 
+        document.getElementById("bodyCard").innerHTML=html;
+   
+    });
 }

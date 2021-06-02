@@ -17,7 +17,7 @@ function saveEvent() {
 
     newEvent.id = CreateGuid();
     newEvent.name = document.getElementById("name").value;
-    newEvent.short_descripton = document.getElementById("short_descripton").value;
+    newEvent.short_description = document.getElementById("short_description").value;
     newEvent.data_event = document.getElementById("data_event").value;
     newEvent.location = document.getElementById("location").value;
     newEvent.photo = imageEvent;
@@ -44,7 +44,7 @@ function CreateGuid() {
 }
 
 function makeCard() {
-    
+
     atual=document.getElementById("cards"); 
     var html=""; 
     var keys = Object.keys(localStorage);
@@ -57,7 +57,7 @@ function makeCard() {
         html = html+'<span class="card-title" id="nameResponse">'+id.name+'</span>';
         html = html+'</div>';
         html = html+'<div class="card-content" id="short_descripton">';
-        html = html+'<p>'+id.full_descripton+'</p>';
+        html = html+'<p>'+id.short_description+'</p>';
         html = html+'</div>';
         html = html+'</div>';
         html = html+'</div>';

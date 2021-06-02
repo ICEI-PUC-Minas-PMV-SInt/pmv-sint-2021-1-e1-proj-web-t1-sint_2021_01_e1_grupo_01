@@ -19,6 +19,21 @@
     </head>
 
     <body>
+
+        <!-- <div class="container d-none" id="relatorio">
+            <table id="tabelaNomes" class="table table-bordered table-primary table-hover mt-3">
+                <thead>
+                    <tr>
+                        <th>Nome do Evento Astronomico</th>
+                        <th>Descrição</th>
+                        <th>Foto</th>   
+                    </tr>
+                </thead>
+                <tbody id="corpoTabela">
+                </tbody>
+            </table>
+        </div> -->
+
         <!-- Modal Trigger -->
         <a class="btnFixed btn-floating btn-large waves-effect waves-light red modal-trigger" href="#saveEvent"><i
                 class="material-icons">add</i></a>
@@ -37,7 +52,7 @@
                                 <img src="./IMG/sample-1.jpg">
                                 <span class="card-title" id="nameResponse">Card Title</span>
                             </div>
-                            <div class="card-content" id="short_descripton">
+                            <div class="card-content" id="short_description">
                                 <p>I am a very simple card. I am good at containing small bits of information. I am convenient
                                     because
                                     I require little markup to use effectively.</p>
@@ -46,13 +61,13 @@
                     </div>
 
                     <div class="col s12 m6 l4">
-                        <div class="card">
+                        <div class="card" id="relatorio">
                             <div class="card-image" id="imageResponse">
                                 <img src="./IMG/sample-1.jpg">
                                 <span class="card-title" id="nameResponse">Card Title</span>
                             </div>
                             <div class="card-content" id="short_descripton">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
+                                <p id="corpoTabela">I am a very simple card. I am good at containing small bits of information. I am convenient
                                     because
                                     I require little markup to use effectively.</p>
                             </div>
@@ -84,8 +99,8 @@
                         <div class="row">
                             <div class="input-field col s12">
                                 <textarea placeholder="Informe uma breve descrição sobre da ocorrência..."
-                                    id="short_descripton" class="materialize-textarea"></textarea>
-                                <label for="short_descripton">Descrição</label>
+                                    id="short_description" class="materialize-textarea"></textarea>
+                                <label for="short_description">Descrição</label>
                             </div>
                         </div>
 
@@ -142,7 +157,7 @@
             </div>
             <div class="modal-footer">
                 <!-- TODO: Melhorar o botao de salvar -->
-                <a href="#!" class="modal-close waves-effect waves-red" id="newCard" onclick="saveEvent();">Salvar</a>
+                <a href="#!" class="modal-close waves-effect waves-red" id="newCard" onclick="saveEvent();formarCard();">Salvar</a>
             </div>
         </div>
 

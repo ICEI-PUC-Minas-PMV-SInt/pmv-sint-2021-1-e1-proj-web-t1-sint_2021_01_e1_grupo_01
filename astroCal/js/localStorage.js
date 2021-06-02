@@ -1,17 +1,32 @@
 window.onload = makeCard();
 var localStorage = Window.localStorage;
 
+//não me orgulho deste codigo que foi criado, estava bebado. Alterar futuramente para uma function
+document.querySelector("#photoEvent").addEventListener("change", function(){
+    const reader = new FileReader();
+    reader.addEventListener("load", () => {
+        imageEvent = reader.result;
+    });
+    reader.readAsDataURL(this.files[0]);
+});
+
 function saveEvent() {
     var newEvent = new Object();
+    var numberTag;
+    var tags = [];
 
     newEvent.id = CreateGuid();
     newEvent.name = document.getElementById("name").value;
-    newEvent.short_descripton = document.getElementById("short_description").value;
-    //newEvent.data_event = document.getElementById("data_event").value;
-    //newEvent.location = document.getElementById("location").value;
-    //newEvent.tag = document.getElementById("tag").value;
-    newEvent.photo = document.getElementById("photo").value;
+    newEvent.short_descripton = document.getElementById("short_descripton").value;
+    newEvent.data_event = document.getElementById("data_event").value;
+    newEvent.location = document.getElementById("location").value;
+    newEvent.photo = imageEvent;
     newEvent.full_descripton = document.getElementById("full_descripton").value;
+
+    for (numberTag = 0; numberTag < document.querySelectorAll('[id="tag"]')[0].getElementsByTagName('div').length; numberTag++) {
+        tags.push(document.querySelectorAll('[id="tag"]')[0].getElementsByTagName('div')[numberTag].innerText.replace("close","").replace(/(\r\n|\n|\r)/gm, ""));
+    }
+    newEvent.tag = tags;
 
     var stageLocalStorage = JSON.stringify(newEvent);
 
@@ -29,14 +44,7 @@ function CreateGuid() {
 }
 
 function makeCard() {
-
-   /* var currentId = localStorage.getItem('id');
-    var currentName = localStorage.getItem('name');
-    var currentShortDescription = localStorage.getItem('short_description');
-    var currentPhoto = localStorage.getItem('photo'); */
-
-
-
+    
     atual=document.getElementById("cards"); 
     var html=""; 
     var keys = Object.keys(localStorage);

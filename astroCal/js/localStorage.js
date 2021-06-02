@@ -1,3 +1,4 @@
+window.onload = makeCard();
 var localStorage = Window.localStorage;
 
 function saveEvent() {
@@ -27,7 +28,7 @@ function CreateGuid() {
     return _p8() + _p8(true) + _p8(true) + _p8();
 }
 
-function formarCard() {
+function makeCard() {
 
    /* var currentId = localStorage.getItem('id');
     var currentName = localStorage.getItem('name');
@@ -41,6 +42,7 @@ function formarCard() {
     var keys = Object.keys(localStorage);
     keys.forEach(function(chave, pos){ 
         let id = JSON.parse(localStorage.getItem(chave));
+        html = html+'<div class="col s12 m6 l4">';
         html = html+'<div class="card">';
         html = html+'<div class="card-image" id="imageResponse">';
         html = html+'<img src="'+id.photo+'">';
@@ -48,6 +50,7 @@ function formarCard() {
         html = html+'</div>';
         html = html+'<div class="card-content" id="short_descripton">';
         html = html+'<p>'+id.full_descripton+'</p>';
+        html = html+'</div>';
         html = html+'</div>';
         html = html+'</div>';
 

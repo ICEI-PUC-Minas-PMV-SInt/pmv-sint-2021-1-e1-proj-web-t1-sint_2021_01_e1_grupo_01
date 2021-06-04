@@ -9,6 +9,27 @@
 }
 
 .main {
-    background-color: aliceblue;
     height: 100vh;
 }   
+
+
+.nav-wrapper{
+    background-color: #DCDCDC;
+}
+
+nav ul a{
+    color: black;
+}
+
+.brand-logo{
+    left: 10%;
+}
+
+.componNavbar{
+    position: relative;
+    right: 10%;
+}
+
+html[dark]{
+    background-color: black;
+}

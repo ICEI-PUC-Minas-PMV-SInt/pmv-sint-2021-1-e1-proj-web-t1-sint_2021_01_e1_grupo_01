@@ -33,8 +33,6 @@ function saveEvent() {
     localStorage.setItem(newEvent.id, stageLocalStorage);
 }
 
-
-
 function CreateGuid() {
     function _p8(s) {
         var p = (Math.random().toString(16) + "000000000").substr(2, 8);
@@ -48,8 +46,10 @@ function makeCard() {
     atual=document.getElementById("cards"); 
     var html=""; 
     var keys = Object.keys(localStorage);
+    
     keys.forEach(function(chave, pos){ 
         let id = JSON.parse(localStorage.getItem(chave));
+
         html = html+'<div class="col s12 m6 l4">';
         html = html+'<div class="card">';
         html = html+'<div class="card-image" id="imageResponse">';

@@ -19,6 +19,7 @@
     </head>
 
     <body>
+
         <!-- Modal Trigger -->
         <a class="btnFixed btn-floating btn-large waves-effect waves-light red modal-trigger" href="#saveEvent"><i
                 class="material-icons">add</i></a>
@@ -26,37 +27,14 @@
         <section id="main" class="main">
             <!-- WIP -->
         </section>
-
-        
+   
         <section id="cards" class="cards">     
             <!--Inicio do Card -->     
             <div class="container">
                 <div class="row">
-                    <div class="col s12 m6 l4">
-                        <div class="card">
-                            <div class="card-image" id="imageResponse">
-                                <img src="./IMG/sample-1.jpg">
-                                <span class="card-title" id="nameResponse">Card Title</span>
-                            </div>
-                            <div class="card-content" id="short_descripton">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because
-                                    I require little markup to use effectively.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col s12 m6 l4">
-                        <div class="card">
-                            <div class="card-image" id="imageResponse">
-                                <img src="./IMG/sample-1.jpg">
-                                <span class="card-title" id="nameResponse">Card Title</span>
-                            </div>
-                            <div class="card-content" id="short_descripton">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because
-                                    I require little markup to use effectively.</p>
-                            </div>
+                    <div id="bodyCard">
+                        <div class="col s12 m6 l4">
+                            <div class="card"></div>
                         </div>
                     </div>
                 </div>
@@ -64,7 +42,6 @@
             <!--Fim do Card -->
         </section>
          
-
         <!-- Modal Structure -->
         <!-- TODO: Ajustar obrigatoriedade dos campos -->
         <div id="saveEvent" class="modal">
@@ -86,8 +63,8 @@
                         <div class="row">
                             <div class="input-field col s12">
                                 <textarea placeholder="Informe uma breve descrição sobre da ocorrência..."
-                                    id="short_descripton" class="materialize-textarea"></textarea>
-                                <label for="short_descripton">Descrição</label>
+                                    id="short_description" class="materialize-textarea"></textarea>
+                                <label for="short_description">Descrição</label>
                             </div>
                         </div>
 
@@ -132,9 +109,6 @@
                                 <label for="full_descripton">Mais Informações</label>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
 
@@ -143,7 +117,7 @@
             </div>
             <div class="modal-footer">
                 <!-- TODO: Melhorar o botao de salvar -->
-                <a href="#!" class="modal-close waves-effect waves-red" id="newCard" onclick="saveEvent();">Salvar</a>
+                <a href="#!" class="modal-close waves-effect waves-red" id="newCard" onclick="saveEvent();makeCard();">Salvar</a>
             </div>
         </div>
 

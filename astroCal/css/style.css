@@ -1,0 +1,14 @@
+.btnFixed {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+#cardStyle {
+    width: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+
+}
+

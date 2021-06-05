@@ -12,16 +12,19 @@
     height: 100vh;
 }   
 
-
-.nav-wrapper{
-    background-color: #DCDCDC;
+.transparentBG {
+    background-color: rgba(0,0,0,0);
 }
 
 nav ul a{
     color: black;
 }
+#logo{
+    color: black;
+}
 
 .brand-logo{
+    bottom: 10%;
     left: 10%;
 }
 
@@ -30,9 +33,6 @@ nav ul a{
     right: 10%;
 }
 
-.toggle{
-    
-}
 
 .toggle input[type='checkbox'] {
     display: none;
@@ -46,9 +46,11 @@ nav ul a{
     display: inline-block;
     position: relative;
     transition: all ease-in-out 0.3s;
-    width: 100px;
-    height: 50px;
-    
+
+    left: 90%;
+    top: 10px;
+    height: 34px;
+    width: 74px;
 }
 
 .toggle label::after {

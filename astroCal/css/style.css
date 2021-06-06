@@ -9,6 +9,64 @@
 }
 
 .main {
-    background-color: aliceblue;
+    background-image:url("moon.jpg");
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    ;
     height: 100vh;
-}   
+}
+
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px !important;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: white;
+}
+
+.search-btn{
+    color: #F44336;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt{
+    border: none !important;
+    background: none;
+    outline: none !important;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 50px;
+    width: 0px !important;
+    transition: 0.4s;
+}
+/*
+.search-box{
+    margin:auto;
+    position: relative;
+    width: 350px;
+    height: 70px;
+    border: 4px solid whitesmoke;
+    padding: 0px 10px;
+    border-radius: 50px;
+} */

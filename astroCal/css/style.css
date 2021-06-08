@@ -83,3 +83,155 @@ body {
 body.dark-theme {
     background-color: #333;
 } 
+.stars{
+    position: relative;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	box-shadow: 
+    10vw 230px white,
+    20vw 220px white,
+    30vw 75px white,
+    40vw 10px white,
+    50vw 380px white,
+    60vw 23px white,
+    70vw 13px white,
+    80vw 419px white,
+    10vw 23px white,
+    20vw 94px white,
+    30vw 158px white,
+    40vw 240px white,
+    50vw 350px white,
+    60vw 23px white,
+    70vw 13px white,
+    80vw 54px white,
+    73vw 200px white,
+    77vw 400px white,
+    80vw 380px white,
+    85vw 240px white,
+    90vw 300px white,
+    60vw 400px white,
+    70vw 360px white,
+    80vw 210px white;
+
+    animation: anim-stars 10s linear infinite;
+   
+}
+
+.stars::after{
+    content: " ";
+    position: absolute;
+    top: 419px;  
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 
+    10vw 230px white,
+    20vw 220px white,
+    30vw 75px white,
+    40vw 10px white,
+    50vw 380px white,
+    60vw 23px white,
+    70vw 13px white,
+    80vw 419px white,
+    10vw 23px white,
+    20vw 94px white,
+    30vw 158px white,
+    40vw 240px white,
+    50vw 350px white,
+    60vw 23px white,
+    70vw 13px white,
+    80vw 54px white,
+    73vw 200px white,
+    77vw 400px white,
+    80vw 380px white,
+    85vw 240px white,
+    90vw 300px white,
+    60vw 400px white,
+    70vw 360px white,
+    80vw 210px white;
+    
+  }
+ 
+  .stars2{
+    position: relative;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    box-shadow: 
+    15vw 250px white,
+    27vw 20px white,
+    32vw 85px white,
+    48vw 20px white,
+    51vw 80px white,
+    64vw 230px white,
+    78vw 130px white,
+    83vw 219px white,
+    12vw 213px white,
+    25vw 194px white,
+    38vw 258px white,
+    50vw 24px white,
+    55vw 35px white,
+    64vw 81px white,
+    73vw 53px white,
+    80vw 82px white,
+    77vw 20px white,
+    72vw 40px white,
+    14vw 38px white,
+    23vw 140px white,
+    97vw 200px white,
+    63vw 410px white,
+    71vw 60px white,
+    18vw 5px white;
+
+    animation: anim-stars 20s linear infinite;
+
+  }
+  
+  .stars2::after{
+    content: " ";
+    position: absolute;
+    top: 419px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    box-shadow: 
+    15vw 250px white,
+    27vw 20px white,
+    32vw 85px white,
+    48vw 20px white,
+    51vw 80px white,
+    64vw 230px white,
+    78vw 130px white,
+    83vw 219px white,
+    12vw 213px white,
+    25vw 194px white,
+    38vw 258px white,
+    50vw 24px white,
+    55vw 35px white,
+    64vw 81px white,
+    73vw 53px white,
+    80vw 82px white,
+    77vw 20px white,
+    72vw 40px white,
+    14vw 38px white,
+    23vw 140px white,
+    97vw 200px white,
+    63vw 410px white,
+    71vw 60px white,
+    18vw 5px white;
+    
+}
+  
+
+@keyframes anim-stars {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-100px);
+    }
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 0; }
+}

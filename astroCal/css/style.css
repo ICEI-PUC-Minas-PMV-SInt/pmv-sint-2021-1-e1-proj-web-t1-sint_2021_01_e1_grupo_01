@@ -9,8 +9,57 @@
 }
 
 .main {
+    background-image:url("moon.jpg");
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
     height: 100vh;
-}   
+}
+
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px !important;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: #F44336;
+    color: white;
+}
+
+.search-btn{
+    color: #F44336;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt{
+    border: none !important;
+    background: none;
+    outline: none !important;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 50px;
+    width: 0px !important;
+    transition: 0.4s;
+}
 
 #somosButton{
     border-radius: 5px;
@@ -113,9 +162,7 @@ body.dark-theme {
     60vw 400px white,
     70vw 360px white,
     80vw 210px white;
-
     animation: anim-stars 10s linear infinite;
-   
 }
 
 .stars::after{
@@ -149,11 +196,10 @@ body.dark-theme {
     90vw 300px white,
     60vw 400px white,
     70vw 360px white,
-    80vw 210px white;
-    
-  }
+    80vw 210px white;    
+}
  
-  .stars2{
+.stars2{
     position: relative;
     width: 2px;
     height: 2px;
@@ -183,12 +229,10 @@ body.dark-theme {
     63vw 410px white,
     71vw 60px white,
     18vw 5px white;
-
     animation: anim-stars 20s linear infinite;
-
-  }
+}
   
-  .stars2::after{
+.stars2::after{
     content: " ";
     position: absolute;
     top: 419px;
@@ -219,11 +263,9 @@ body.dark-theme {
     97vw 200px white,
     63vw 410px white,
     71vw 60px white,
-    18vw 5px white;
-    
+    18vw 5px white;   
 }
   
-
 @keyframes anim-stars {
     from {
         transform: translateY(0px);

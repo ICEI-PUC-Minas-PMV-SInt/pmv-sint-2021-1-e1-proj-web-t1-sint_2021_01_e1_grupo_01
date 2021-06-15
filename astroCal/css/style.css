@@ -9,10 +9,129 @@
 }
 
 .main {
-    background-color: aliceblue;
+    background-image:url("moon.jpg");
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
     height: 100vh;
-}   
+}
 
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2f3640;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px !important;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: #F44336;
+    color: white;
+}
+
+.search-btn{
+    color: #F44336;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt{
+    border: none !important;
+    background: none;
+    outline: none !important;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 50px;
+    width: 0px !important;
+    transition: 0.4s;
+}
+
+#somosButton{
+    border-radius: 5px;
+}
+
+nav{
+    position: fixed;
+}
+
+nav ul a{
+    color: black;
+}
+#logo{
+    color: black;
+}
+
+.nav-wrapper{
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.toggle input[type='checkbox'] {
+    display: none;
+}
+
+
+.toggle label {
+    background-color: #777;
+    border: 2px solid #555;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: all ease-in-out 0.3s;
+
+    left: 103%;
+    width: 64px;
+    height: 29px;
+    top: 10px;
+}
+
+
+.toggle label::after {
+    background-color: #555;
+    border-radius: 50%;
+    content: ' ';
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    transition: all ease-in-out 0.3s;
+    width: 25px;
+    height: 25px;
+}
+
+
+.toggle input[type='checkbox']:checked ~ label {
+    background-color: #00a0fc;
+    border-color: #006dc9;
+}
+
+.toggle input[type='checkbox']:checked ~ label::after {
+    background-color: #0054b0;
+    transform: translateX(36px);
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+body.dark-theme {
+    background-color: #333;
+} 
 .stars{
   
     position: relative;
@@ -87,7 +206,7 @@
     /* animation: animate__fadeIn; */
   }
  
-  .stars2{
+.stars2{
     position: relative;
     width: 2px;
     height: 2px;
@@ -122,7 +241,7 @@
 
   }
   
-  .stars2::after{
+.stars2::after{
     content: " ";
     position: absolute;
     top: 419px;

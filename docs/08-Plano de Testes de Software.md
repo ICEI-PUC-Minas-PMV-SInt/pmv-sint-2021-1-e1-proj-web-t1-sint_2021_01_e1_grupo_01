@@ -1,19 +1,27 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+USER STORY 
+Eu enquanto usuário 
+Quero poder verificar as ocorrências astronômicas de acordo com a localização
+Para que eu tenha conhecimento de que ocorrências eu posso visualizar em minha localidade
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+QUAL VALOR PARA O USUÁRIO?
+Agregar conhecimento referente à ocorrências astronômicas, além de possuir disponível um plataforma que contenha, de forma centralizada, os dados referentes às datas destas ocorrências. 
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+QUAL VALOR PARA O NEGÓCIO?
+Permitir o acesso de informação voltado para astronomia de forma simplificada para o usuário e proporcionar ao usuário a verificação das ocorrências astronômicas.
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+Cadastrar um evento 
+ Dado que (Given) possua as informações de uma ocorrência astronômica 
+ Quando (When) fizer o cadastro  
+ Então (Then) a ocorrência deve ser armazenada na local storage
+
+Consultar todas as ocorrências astronômicas cadastradas  
+ Dado que (Given) já existam ocorrências astronômicas armazenadas na local storage  
+ Quando (When) navegar para seção de ocorrências cadastradas    
+ Então (Then) devo visualizar as ocorrências 
+
+Consultar uma ocorrência específica  
+ Dado que (Given) já existam ocorrências astronômicas armazenadas na local storage 
+ Quando (When) inserir as palavras-chaves, referente a ocorrência que desejo visualizar, no local de busca  
+ Então (Then) devo visualizar a(s) ocorrência(s) referente(s) à busca 

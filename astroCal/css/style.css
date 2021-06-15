@@ -45,8 +45,8 @@
     70vw 360px white,
     80vw 210px white;
 
-    animation: anim-stars 0s linear infinite;
-    
+    /* animation: anim-stars 0s linear infinite;
+     */
     
    
 }
@@ -84,7 +84,7 @@
     100vw 260px white,
     80vw 200px white;
     
-    animation: animate__fadeIn;
+    /* animation: animate__fadeIn; */
   }
  
   .stars2{
@@ -118,7 +118,7 @@
     71vw 60px white,
     18vw 10px white;
 
-    animation: fadeIn linear infinite;
+    /* animation: fadeIn linear infinite; */
 
   }
   

@@ -1,0 +1,37 @@
+name: CI
+
+on:
+
+  push:
+    branches: [ main ]
+    
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: ./astroCal
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+          
+      - name: npm install
+        run: npm install
+        
+      - name: npm run bundle
+        run: npm run bundle
+
+      - name: FTP Deploy AstroCal
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: 
+          ftp-username:
+          ftp-password:
+          local-dir: ./astroCal

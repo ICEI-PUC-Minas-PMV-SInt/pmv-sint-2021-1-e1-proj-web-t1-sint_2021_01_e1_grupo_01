@@ -1,6 +1,9 @@
 window.onload = makeCard();
 var localStorage = Window.localStorage;
 
+window.onload = makeModalCard();
+var localStorage = Window.localStorage;
+
 //não me orgulho deste codigo que foi criado, estava bebado. Alterar futuramente para uma function
 document.querySelector("#photoEvent").addEventListener("change", function(){
     const reader = new FileReader();
@@ -53,8 +56,9 @@ function makeCard() {
         html = html+'<div class="col s12 m6 l4">';
         html = html+'<div class="card">';
         html = html+'<div class="card-image" id="imageResponse">';
-        html = html+'<img src="'+id.photo+'">';
+        html = html+'<img src="'+id.photo+'" height="200" width="42">';
         html = html+'<span class="card-title" id="nameResponse">'+id.name+'</span>';
+        html = html+'<button href="#modal1" style="float: right" class="waves-effect waves-light btn modal-trigger modal1 type="submit">Modal</button>'
         html = html+'</div>';
         html = html+'<div class="card-content" id="short_descripton">';
         html = html+'<p>'+id.short_description+'</p>';
@@ -63,6 +67,19 @@ function makeCard() {
         html = html+'</div>';
 
         document.getElementById("bodyCard").innerHTML=html;
-   
+    });
+}
+
+function makeModalCard(){
+    atual=document.getElementById("modal1"); 
+    var html=""; 
+    var keys = Object.keys(localStorage);
+    
+    keys.forEach(function(chave, pos){ 
+        let id = JSON.parse(localStorage.getItem(chave));
+        
+        html = html+'<p>'+id.short_description+'</p>';
+
+        document.getElementById("modal-card").innerHTML=html;   
     });
 }

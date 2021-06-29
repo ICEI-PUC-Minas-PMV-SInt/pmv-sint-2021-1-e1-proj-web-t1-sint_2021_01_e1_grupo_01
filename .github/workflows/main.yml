@@ -24,9 +24,6 @@ jobs:
           
       - name: npm install
         run: npm install
-        
-      - name: npm run bundle
-        run: npm run bundle
 
       - name: FTP Deploy AstroCal (Podruction)
         uses: SamKirkland/FTP-Deploy-Action@4.0.0

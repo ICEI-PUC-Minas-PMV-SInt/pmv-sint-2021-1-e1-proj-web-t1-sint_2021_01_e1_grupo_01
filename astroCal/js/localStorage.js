@@ -66,3 +66,15 @@ function makeCard() {
    
     });
 }
+
+var filtro = document.getElementById('search_events');
+var tabela = document.getElementById('cards');
+filtro.onkeyup = function() {
+    var nomeFiltro = filtro.value;
+    
+    //for (var i = 1; i < tabela.name.length; i++) {
+        var conteudoCelula = tabela.rows[i].cells[0].innerText;
+        var corresponde = conteudoCelula.toLowerCase().indexOf(nomeFiltro) >= 0;
+        tabela.rows[i].style.display = corresponde ? '' : 'none';
+    //}
+};

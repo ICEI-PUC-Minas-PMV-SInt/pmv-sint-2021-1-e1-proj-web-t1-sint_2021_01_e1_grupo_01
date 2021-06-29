@@ -23,3 +23,6 @@ toggle.addEventListener('input', e => {
         body.classList.remove('dark-theme');
     }
 });
+
+    var elem = document.getElementById('botaoSubmit') ;
+    elem.addEventListener ('click', function MensagAgrad(){alert("Obrigado! Em breve entraremos em contato");}, false);

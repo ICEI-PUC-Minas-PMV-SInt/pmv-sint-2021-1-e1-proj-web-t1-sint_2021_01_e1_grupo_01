@@ -29,7 +29,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           server: ftp.erickribeiro.me
-          ftp-username: admin@astrocal.dev
-          ftp-password: ${{ secrets.PROD_FTP_PASSWORD }}
+          username: admin@astrocal.dev
+          password: ${{ secrets.PROD_FTP_PASSWORD }}
           port: 21
           local-dir: ./astroCal

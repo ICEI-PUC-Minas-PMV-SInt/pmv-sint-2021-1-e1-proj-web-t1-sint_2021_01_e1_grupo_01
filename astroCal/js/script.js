@@ -24,5 +24,7 @@ toggle.addEventListener('input', e => {
     }
 });
 
-    var elem = document.getElementById('botaoSubmit') ;
-    elem.addEventListener ('click', function MensagAgrad(){alert("Obrigado! Em breve entraremos em contato");}, false);
+ function mensagemSub(){
+     if(  document.getElementById('botaoSubmit')){
+    document.getElementById("mensagemAgrad").innerHTML='Obrigado! Em breve entraremos em contato.';
+}};

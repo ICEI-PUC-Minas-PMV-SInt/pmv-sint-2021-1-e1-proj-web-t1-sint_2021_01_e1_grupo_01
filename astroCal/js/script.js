@@ -11,6 +11,10 @@ $('.chips-placeholder').chips({
     secondaryPlaceholder: '+Tag',
 });
 
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+});
+
 const toggle = document.getElementById('toggle');
 const body = document.body;
 

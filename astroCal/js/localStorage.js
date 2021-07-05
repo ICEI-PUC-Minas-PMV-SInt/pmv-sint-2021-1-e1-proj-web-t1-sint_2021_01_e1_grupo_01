@@ -1,7 +1,6 @@
 window.onload = makeCard();
 var localStorage = Window.localStorage;
 
-//não me orgulho deste codigo que foi criado, estava bebado. Alterar futuramente para uma function
 document.querySelector("#photoEvent").addEventListener("change", function(){
     const reader = new FileReader();
     reader.addEventListener("load", () => {

@@ -23,3 +23,8 @@ toggle.addEventListener('input', e => {
         body.classList.remove('dark-theme');
     }
 });
+
+ function mensagemSub(){
+     if(  document.getElementById('botaoSubmit')){
+    document.getElementById("mensagemAgrad").innerHTML='Obrigado! Em breve entraremos em contato.';
+}};

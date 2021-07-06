@@ -1589,7 +1589,17 @@ body {
     padding: 5rem 0;
 }
 
-nav img {
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand>img {
+    height: 64px;
+    padding: 0 0 0 5%;
+    width: auto; 
+}
+
+/* nav img {
     width: 80%;
     margin: 2% 0 0 45%;
 }
@@ -1599,7 +1609,7 @@ nav img {
         width: 80%;
         margin: 10% 0 0 17%;
     }
-}
+} */
 
 .moving-mouse-holder {
     margin: auto;

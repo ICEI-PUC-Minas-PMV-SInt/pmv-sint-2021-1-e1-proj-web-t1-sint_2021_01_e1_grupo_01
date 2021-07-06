@@ -5,23 +5,21 @@
   <meta charset="UTF-8">
   <title>AstroCal - Cadastro De Atividade Atronômica</title>
   <meta name="viewport" content="width = device-width, initial-scale = 1">
-
+  <meta name="color-scheme" content="dark">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  </head>
 
-</head>
-
-<body class="opening view-2D zoom-close">
+<body class="opening view-3D">
 
   <section id="header" class="header">
     <nav>
-      <div class="nav-wrapper black">
+      <div class="nav-wrapper grey darken-4">
         <a href="#!" class="brand-logo"><img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/838/5574758838_eef1d9d3-c209-4c1f-a11d-70450822f5d0.png?cb=1625247531"></a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="#events">Calendario Astronômico</a></li>
+          <li><a href="#cards">Calendario Astronômico</a></li>
           <li><a href="about.html">Quem Somos</a></li>
           <li><form>
             <div class="input-field">
@@ -123,13 +121,11 @@
 
     </div>
     
-
-      <div class="moving-mouse-holder">
-        <div class="mouse">
-          <div class="mouse-button">&nbsp;</div>
-        </div>
+    <div href="#cards" class="moving-mouse-holder">
+      <div class="mouse">
+        <div class="mouse-button">&nbsp;</div>
       </div>
-
+    </div>
     
   </section>
 
@@ -145,11 +141,80 @@
     </div>
   </section>
 
+  <section class="footer" id="footer">
+    <footer class="page-footer grey darken-4">
+      <div class="container">
+        <div class="row">
+
+          <div class="col l6 s12">
+            <div class="row">
+              <div class="col s12">
+                <form action="">
+
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label class="white-text" for="icon_prefix">Nome</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">phone</i>
+                      <input id="icon_telephone" type="tel" class="validate">
+                      <label class="white-text" for="icon_telephone">Telefone</label>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="input-field col s12 ">
+                      <i class="material-icons prefix">contact_mail</i>
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label class="white-text" for="textarea1">Digite aqui sua mensagem:</label>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col s8">
+                      <p>Obrigado! Em breve entraremos em contato.</p>
+                    </div>
+
+                    <div class="col s4">
+                      <button class="btn waves-effect waves-light blue-grey darken-2" type="submit" name="action">Enviar
+                        <i class="material-icons right">send</i>
+                      </button>
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="links grey-text text-lighten-3" href="#!">Eventos Astronômicos</a></li>
+              <li><a class="links grey-text text-lighten-3" href="#!">Quem somos</a></li>
+              <li><a class="links grey-text text-lighten-3" href="#!">Cadastrar Eventos</a></li>
+              <li><a class="links grey-text text-lighten-3" href="#!">NewsLetter</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+        <div class="container">
+          <p class="links">© AstroCal - Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </section>
+ 
   <!-- Modal Structure -->
   <div id="saveEvent" class="modal">
-    <div class="modal-content">
+    <div class="modal-content grey darken-4">
 
-      <!-- Inicio do Formulario -->
       <form method="" action="">
         <div class="row">
           <div class="col s12">
@@ -162,7 +227,6 @@
               </div>
             </div>
 
-            <!-- TODO: adicionar limitação de caracter neste card -->
             <div class="row">
               <div class="input-field col s12">
                 <textarea placeholder="Informe uma breve descrição sobre da ocorrência..." id="short_description"
@@ -219,92 +283,15 @@
           </button>
         </div>
 
-        <!-- Fim do Formulario -->
       </form>
     </div>
   </div>
 
-  <section class="footer" id="footer">
-    <footer class="page-footer black">
-      <div class="stars"></div>
-      <div class="stars2"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <div class="row">
-              <div class="col s12">
-                <form action="">
-
-                  <div class="row">
-                    <div class="input-field col s6">
-                      <i class="material-icons prefix">account_circle</i>
-                      <input id="icon_prefix" type="text" class="validate">
-                      <label class="white-text" for="icon_prefix">Nome</label>
-                    </div>
-
-                    <div class="input-field col s6">
-                      <i class="material-icons prefix">phone</i>
-                      <input id="icon_telephone" type="tel" class="validate">
-                      <label class="white-text" for="icon_telephone">Telefone</label>
-                    </div>
-
-                  </div>
-
-                  <div class="row">
-                    <div class="input-field col s12 ">
-                      <i class="material-icons prefix">contact_mail</i>
-                      <textarea id="textarea1" class="materialize-textarea"></textarea>
-                      <label class="white-text" for="textarea1">Digite aqui sua mensagem:</label>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col s8">
-                      <p>Obrigado! Em breve entraremos em contato.</p>
-                    </div>
-
-                    <div class="col s4">
-                      <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                        <i class="material-icons right">send</i>
-                      </button>
-                    </div>
-                  </div>
-
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Eventos Astronômicos</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Quem somos</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Cadastrar Eventos</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">NewsLetter</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright black">
-        <div class="container">
-          © AstroCal - Todos os direitos reservados.
-        </div>
-      </div>
-    </footer>
-  </section>
-
+  <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
   <script type="text/javascript" src="js/localStorage.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    if (typeof jQuery == 'undefined') {
-      document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
-    }
-  </script>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>

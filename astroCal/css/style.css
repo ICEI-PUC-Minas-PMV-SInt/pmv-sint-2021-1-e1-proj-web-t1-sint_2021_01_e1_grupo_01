@@ -1,4 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+:root {
+    color-scheme: dark;
+}
+
+html {
+    scrollbar-face-color: #646464;
+    scrollbar-base-color: #646464;
+    scrollbar-3dlight-color: #646464;
+    scrollbar-highlight-color: #646464;
+    scrollbar-track-color: #000;
+    scrollbar-arrow-color: #000;
+    scrollbar-shadow-color: #646464;
+}
+  
+::-webkit-scrollbar {height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #646464;}
+::-webkit-scrollbar-track-piece { background-color: #000;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #646464;}
+::-webkit-resizer { background-color: #666;}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     border: 0;
     font-size: 100%;
@@ -1566,102 +1589,6 @@ body {
     padding: 5rem 0;
 }
 
-.search-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #2f3640;
-    height: 50px;
-    border-radius: 50px;
-}
-
-.search-box:hover > .search-txt{
-    width: 240px !important;
-    padding: 0 6px;
-}
-
-.search-box:hover > .search-btn{
-    background: #F44336;
-    color: white;
-}
-
-.search-btn{
-    color: #F44336;
-    float: right;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.search-txt{
-    border: none !important;
-    background: none;
-    outline: none !important;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    line-height: 50px;
-    width: 0px !important;
-    transition: 0.4s;
-}
-
-
-.toggle input[type='checkbox'] {
-    display: none;
-}
-
-.toggle label {
-    background-color: #777;
-    border: 2px solid #555;
-    border-radius: 50px;
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: all ease-in-out 0.3s;
-
-    left: 103%;
-    width: 64px;
-    height: 29px;
-    top: 10px;
-}
-
-.toggle label::after {
-    background-color: #555;
-    border-radius: 50%;
-    content: ' ';
-    cursor: pointer;
-    display: inline-block;
-    position: absolute;
-    transition: all ease-in-out 0.3s;
-    width: 25px;
-    height: 25px;
-}
-
-
-.toggle input[type='checkbox']:checked ~ label {
-    background-color: #00a0fc;
-    border-color: #006dc9;
-}
-
-.toggle input[type='checkbox']:checked ~ label::after {
-    background-color: #0054b0;
-    transform: translateX(36px);
-}
-
-body {
-    background-color: #f5f7fa;
-}
-
-body.dark-theme {
-    background-color: #333;
-}
-
 nav img {
     width: 80%;
     margin: 2% 0 0 45%;
@@ -1709,3 +1636,12 @@ nav img {
       transform: translate(0, 6px) scale(1, 0.8);
     }
   }
+
+.input-field input[type=text]{
+    color: rgb(227, 227, 227);
+}
+
+.links{
+    font-size: 15px!important;
+    line-height: 1.5;
+}

@@ -1742,3 +1742,8 @@ body {
 .team{
     margin-bottom: 8rem;
 }
+
+.card p {
+    font-size: 15px;
+    line-height: 1.5;
+}

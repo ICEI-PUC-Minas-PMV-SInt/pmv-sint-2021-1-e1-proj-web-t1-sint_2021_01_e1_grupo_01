@@ -16,3 +16,9 @@ $(document).ready(function(){
 });
 
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+function contactSub() {
+    if (document.getElementById('btn-contact-form')) {
+        document.getElementById("text-submit-contact-form").innerHTML = 'Obrigado! Em breve entraremos em contato.';
+    }
+}

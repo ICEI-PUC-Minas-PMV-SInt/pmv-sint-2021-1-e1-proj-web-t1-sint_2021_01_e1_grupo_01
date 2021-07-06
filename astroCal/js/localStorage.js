@@ -66,3 +66,45 @@ function makeCard() {
    
     });
 }
+
+function searchLocalStorage() {
+    //alert(document.getElementById("search").value);
+
+    atual=document.getElementById("cards"); 
+    var html=""; 
+    var keys = Object.keys(localStorage);
+
+    keys.forEach(function(chave, pos){ 
+        let id = JSON.parse(localStorage.getItem(chave));
+
+        if ((id.name == document.getElementById("search").value) | (id.tag == document.getElementById("search").value)) {
+            html = html+'<div class="col s12 m6 l4">';
+            html = html+'<div class="card">';
+            html = html+'<div class="card-image" id="imageResponse">';
+            html = html+'<img src="'+id.photo+'">';
+            html = html+'<span class="card-title" id="nameResponse">'+id.name+'</span>';
+            html = html+'</div>';
+            html = html+'<div class="card-content" id="short_descripton">';
+            html = html+'<p>'+id.short_description+'</p>';
+            html = html+'</div>';
+            html = html+'</div>';
+            html = html+'</div>';
+    
+            document.getElementById("bodyCard").innerHTML=html;
+        }
+    });
+    window.location.href = "#cards";
+}
+
+document.getElementById("search").onkeydown = function(e) {
+    if (e.keyCode == 13) {
+        searchLocalStorage();
+        return false;
+    }
+}
+
+//não esta funcionando clicando na lupa, verificar isso posteriormente
+document.getElementById("search").onsubmit = function() {
+    searchLocalStorage();
+    return false;
+}

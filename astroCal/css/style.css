@@ -1747,3 +1747,11 @@ body {
     font-size: 15px;
     line-height: 1.5;
 }
+
+.card-title {
+    font-weight: 900;
+}
+
+textarea{
+    color: white !important;
+}

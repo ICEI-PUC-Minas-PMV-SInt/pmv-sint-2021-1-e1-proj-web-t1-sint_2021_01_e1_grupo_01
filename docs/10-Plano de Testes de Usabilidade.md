@@ -11,19 +11,19 @@ Neste teste de usabilidade iremos testar o novo sistema de cadastro e consultas 
 
 Produto: AstroCal
 
-> Teste nº:
+> Teste nº: 0001
 >
-> Data:
+> Data: 06/07/2021
 >
->Início da sessão:
+>Início da sessão: 16h48 - Horário de Brasília
 >
->Término da sessão:
+>Término da sessão: 16h56 - Horário de Brasília
 >
->Local:
+>Local: São Paulo/ SP
 >
->Entrevistador:
+>Entrevistador: Carolina Dolacio
 >
->Observador:
+>Observador: 
 
 ---
 
@@ -36,9 +36,9 @@ se o produto foi testado com a amostra correta.
 - Dar instruções básicas de como será o andamento da pesquisa.
 - Pedir para o usuário silenciar o celular.
 
-**Nome**:
+**Nome**: Natalia T. A Menezes
 
-**Idade**:
+**Idade**:25 anos
 
 **Experiência de uso da internet**:
 
@@ -46,11 +46,11 @@ se o produto foi testado com a amostra correta.
 >
 >[ ] Média experiência no uso de sites
 >
->[ ] Muita experiência no uso de sites
+>[x] Muita experiência no uso de sites
 
 **Sexo**:
 
->[ ] Feminino
+>[x] Feminino
 >
 >[ ] Masculino
 >
@@ -60,13 +60,13 @@ se o produto foi testado com a amostra correta.
 
 >[ ] Sim 
 >
->[ ] Não
+>[x] Não
 
 **Possui algum requisito de acessibilidade para o uso de sites**?
 
 >[ ] Sim - Qual?
 >
->[ ] Não
+>[x] Não
 
 ---
 
@@ -96,7 +96,7 @@ Descrição da tarefa: Clicar no botão de cadastro, e digitar as informações 
 
 > [ ] Sim, com facilidade
 >
-> [ ] Sim, com dificuldade
+> [x] Sim, com dificuldade
 >
 > [ ] Não conseguiu realizar a tarefa
 
@@ -112,7 +112,7 @@ Descrição da tarefa: Navegar até a seção que contenha as ocorrências e vis
 
 **Usuário conseguiu realizar a tarefa**?
 
-> [ ] Sim, com facilidade
+> [x] Sim, com facilidade
 >
 > [ ] Sim, com dificuldade
 >
@@ -130,7 +130,7 @@ Descrição da tarefa: Localizar a seção de busca e digitar o nome de uma ocor
 
 **Usuário conseguiu realizar a tarefa**?
 
-> [ ] Sim, com facilidade
+> [x] Sim, com facilidade
 >
 > [ ] Sim, com dificuldade
 >
@@ -148,7 +148,7 @@ Descrição da tarefa: Localizar o botão que leva a pagina de mais informaçõe
 
 **Usuário conseguiu realizar a tarefa**?
 
-> [ ] Sim, com facilidade
+> [x] Sim, com facilidade
 >
 > [ ] Sim, com dificuldade
 >
@@ -160,31 +160,13 @@ Descrição da tarefa: Localizar o botão que leva a pagina de mais informaçõe
 
 Página: index.html (principal)  
 
-Objetivo: Alterar o tema da página
-
-Descrição da tarefa: Localizar o botão que altera o tema da pagina colocando ela em modo noturno ou diurno.
-
-**Usuário conseguiu realizar a tarefa**?
-
-> [ ] Sim, com facilidade
->
-> [ ] Sim, com dificuldade
->
-> [ ] Não conseguiu realizar a tarefa
-
----
-
-### Tarefa F
-
-Página: index.html (principal)  
-
 Objetivo: Localizar campo para entrar em contato com os criadores do site
 
 Descrição da tarefa: Localizar a seção aonde pode entrar em contato com os criadores do site.
 
 **Usuário conseguiu realizar a tarefa**?
 
-> [ ] Sim, com facilidade
+> [x] Sim, com facilidade
 >
 > [ ] Sim, com dificuldade
 >
@@ -200,10 +182,8 @@ Momento para rever como o usuário se sentiu realizando as tarefas, se tem algo 
 
 Se não tiver tocado nos seguintes assuntos, é possível perguntar diretamente ao usuário o que ele achou sobre:
 
-- Realizar uma busca no site
-- Dar sua opinião sobre o site
-- Testar a acessibilidade do site
-- Encontrar serviços disponíveis no site
-- Comentar sobre quaisquer pontos que não foram comentados
+- Site intuitivo, fácil manuseio, layout interessante,
+- Alguns botões sem função são confusos, precisa de melhorias na barra de pesquisa
+
 
 Agradecer o usuário e explicar o valor da sua participação.

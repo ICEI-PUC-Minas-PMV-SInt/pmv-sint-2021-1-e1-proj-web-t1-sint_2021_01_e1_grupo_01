@@ -11,20 +11,14 @@ $('.chips-placeholder').chips({
     secondaryPlaceholder: '+Tag',
 });
 
-const toggle = document.getElementById('toggle');
-const body = document.body;
-
-toggle.addEventListener('input', e => {
-    const isChecked = e.target.checked;
-
-    if (isChecked) {
-        body.classList.add('dark-theme');
-    } else {
-        body.classList.remove('dark-theme');
-    }
+$(document).ready(function(){
+    $('.sidenav').sidenav();
 });
 
- function mensagemSub(){
-     if(  document.getElementById('botaoSubmit')){
-    document.getElementById("mensagemAgrad").innerHTML='Obrigado! Em breve entraremos em contato.';
-}};
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+function contactSub() {
+    if (document.getElementById('btn-contact-form')) {
+        document.getElementById("text-submit-contact-form").innerHTML = 'Obrigado! Em breve entraremos em contato.';
+    }
+}

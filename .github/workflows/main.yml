@@ -1,25 +1,28 @@
 name: CI
     
-on: push
-name: 🚀 Deploy website on push
-jobs:
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    
+name: 🚀 Deploy website on pushjobs:
   web-deploy:
     name: 🎉 Deploy
-    runs-on: ubuntu-latest
-    steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v2
+      runs-on: ubuntu-latest
+      steps:
+         - name: 🚚 Get latest code
+         uses: actions/checkout@v2
 
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.1.0
-      with:
-          server: ftp.erickribeiro.me
-          username: admin@astrocal.dev
-          password: ${{ secrets.PROD_FTP_PASSWORD }}
-          port: 21
-        exclude:
-          - **docs/**
-          - **presentation/**
-          - **/src/**
-          - README.md
-
+         - name: 📂 Sync files
+         uses: SamKirkland/FTP-Deploy-Action@4.1.0
+         with:
+           server: ftp.erickribeiro.me
+           username: admin@astrocal.dev
+           password: ${{ secrets.PROD_FTP_PASSWORD }}
+           port: 21
+           exclude:
+             - **docs/**
+             - **presentation/**
+             - **/src/**
+             - README.md

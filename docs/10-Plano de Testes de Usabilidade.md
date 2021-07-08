@@ -11,17 +11,17 @@ Neste teste de usabilidade iremos testar o novo sistema de cadastro e consultas 
 
 Produto: AstroCal
 
-> Teste nº: 0001
+> Teste nº: 
 >
-> Data: 06/07/2021
+> Data: 
 >
->Início da sessão: 16h48 - Horário de Brasília
+>Início da sessão: 
 >
->Término da sessão: 16h56 - Horário de Brasília
+>Término da sessão:
 >
->Local: São Paulo/ SP
+>Local: 
 >
->Entrevistador: Carolina Dolacio
+>Entrevistador:
 >
 >Observador: 
 
@@ -36,9 +36,9 @@ se o produto foi testado com a amostra correta.
 - Dar instruções básicas de como será o andamento da pesquisa.
 - Pedir para o usuário silenciar o celular.
 
-**Nome**: Natalia T. A Menezes
+**Nome**: 
 
-**Idade**:25 anos
+**Idade**:
 
 **Experiência de uso da internet**:
 
@@ -46,11 +46,11 @@ se o produto foi testado com a amostra correta.
 >
 >[ ] Média experiência no uso de sites
 >
->[x] Muita experiência no uso de sites
+>[ ] Muita experiência no uso de sites
 
 **Sexo**:
 
->[x] Feminino
+>[ ] Feminino
 >
 >[ ] Masculino
 >
@@ -60,13 +60,13 @@ se o produto foi testado com a amostra correta.
 
 >[ ] Sim 
 >
->[x] Não
+>[ ] Não
 
 **Possui algum requisito de acessibilidade para o uso de sites**?
 
 >[ ] Sim - Qual?
 >
->[x] Não
+>[ ] Não
 
 ---
 
@@ -96,7 +96,7 @@ Descrição da tarefa: Clicar no botão de cadastro, e digitar as informações 
 
 > [ ] Sim, com facilidade
 >
-> [x] Sim, com dificuldade
+> [ ] Sim, com dificuldade
 >
 > [ ] Não conseguiu realizar a tarefa
 
@@ -112,7 +112,7 @@ Descrição da tarefa: Navegar até a seção que contenha as ocorrências e vis
 
 **Usuário conseguiu realizar a tarefa**?
 
-> [x] Sim, com facilidade
+> [ ] Sim, com facilidade
 >
 > [ ] Sim, com dificuldade
 >
@@ -130,7 +130,7 @@ Descrição da tarefa: Localizar a seção de busca e digitar o nome de uma ocor
 
 **Usuário conseguiu realizar a tarefa**?
 
-> [x] Sim, com facilidade
+> [ ] Sim, com facilidade
 >
 > [ ] Sim, com dificuldade
 >
@@ -148,7 +148,7 @@ Descrição da tarefa: Localizar o botão que leva a pagina de mais informaçõe
 
 **Usuário conseguiu realizar a tarefa**?
 
-> [x] Sim, com facilidade
+> [ ] Sim, com facilidade
 >
 > [ ] Sim, com dificuldade
 >
@@ -166,7 +166,7 @@ Descrição da tarefa: Localizar a seção aonde pode entrar em contato com os c
 
 **Usuário conseguiu realizar a tarefa**?
 
-> [x] Sim, com facilidade
+> [ ] Sim, com facilidade
 >
 > [ ] Sim, com dificuldade
 >
@@ -187,3 +187,7 @@ Se não tiver tocado nos seguintes assuntos, é possível perguntar diretamente 
 
 
 Agradecer o usuário e explicar o valor da sua participação.
+
+## Vídeo Teste de Usabilidade
+
+https://youtu.be/yIk5_ZxQWrY

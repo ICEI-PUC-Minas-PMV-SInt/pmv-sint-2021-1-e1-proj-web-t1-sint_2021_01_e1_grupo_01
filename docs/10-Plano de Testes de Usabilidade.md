@@ -188,6 +188,5 @@ Se não tiver tocado nos seguintes assuntos, é possível perguntar diretamente 
 
 Agradecer o usuário e explicar o valor da sua participação.
 
-## Vídeo Teste de Usabilidade
 
-https://youtu.be/yIk5_ZxQWrY
+

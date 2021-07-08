@@ -188,10 +188,10 @@ Se não tiver tocado nos seguintes assuntos, é possível perguntar diretamente 
 
 Agradecer o usuário e explicar o valor da sua participação.
 
-## Vídeo e PDF Teste de Usablidade
+## Vídeo e PDF Teste de Usabilidade
 
-> https://youtu.be/yIk5_ZxQWrY
-> [Teste de Usabilidade .pdf](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_01/files/6786312/Teste.de.Usabilidade.pdf)
+- https://youtu.be/yIk5_ZxQWrY
+- [Teste de Usabilidade .pdf](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_01/files/6786312/Teste.de.Usabilidade.pdf)
 
 
 
